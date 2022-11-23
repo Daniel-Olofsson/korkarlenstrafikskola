@@ -11,9 +11,9 @@ class About extends Component {
     </h2>
     <div className="about-us">
     <ul>
-    <p>Trafiklärarna på Körkarlens trafikskola är välutbildade och duktiga på sina arbetsuppgifter. 
-        Körkarlens trafikskola är en trafikskola där du får ditt körkort snabbt, enkelt och billigt med hög kvalitet.</p>
-        <p>Vi erbjuder på körkarlens trafikskola:</p>
+    <p>Trafiklärarna på Körkarlens trafikskola är välutbildade och duktiga på sina arbetsuppgifter.</p> 
+        <p>Körkarlens trafikskola är en trafikskola där du får ditt körkort snabbt, enkelt och billigt med hög kvalitet.</p>
+        <p>Vi erbjuder på Körkarlens trafikskola:</p>
         <li>✓ Alltid mycket låga och konkurrenskraftiga priser</li>
         <li>✓ Hög kvalitet i undervisningen</li>
         <li>✓ En trevlig och avspänd atmosfär på trafikskolan, vilket skapar en bra miljö för en god inlärning</li>
@@ -22,58 +22,58 @@ class About extends Component {
     </ul>
     </div>
     
-    <h2>Våra anställda</h2>
+    <h2 className="about-h">Våra anställda</h2>
 <div class="row">
-  <div class="col-sm-6" className="card-col">
+  <div class="col-sm-12" className="card-col">
     <div class="card">
     <img src={TestImage} class="card-img-top" alt="..."/>
       <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <h5 class="card-title">Namn: .</h5>
+        <p class="card-text">Telefon nr: .</p>
         <a href="#" class="btn btn-primary">Kontakta mig</a>
       </div>
     </div>
     <div class="card">
     <img src={TestImage} class="card-img-top" alt="..."/>
       <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <h5 class="card-title">Namn: .</h5>
+        <p class="card-text">Telefon nr: .</p>
         <a href="#" class="btn btn-primary">Kontakta mig</a>
       </div>
     </div>
     <div class="card">
     <img src={TestImage} class="card-img-top" alt="..."/>
       <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <h5 class="card-title">Namn: .</h5>
+        <p class="card-text">Telefon nr: .</p>
         <a href="#" class="btn btn-primary">Kontakta mig</a>
       </div>
     </div>
     
     
   </div>
-<div class="col-sm-6">
+<div class="col-sm-12" className="card-col">
     <div class="card">
     <img src={TestImage} class="card-img-top" alt="..."/>
       <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <h5 class="card-title">Namn: .</h5>
+        <p class="card-text">Telefon nr: .</p>
         <a href="#" class="btn btn-primary">Kontakta mig</a>
       </div>
     </div>
     <div class="card">
     <img src={TestImage} class="card-img-top" alt="..."/>
       <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <h5 class="card-title">Namn: .</h5>
+        <p class="card-text">Telefon nr: .</p>
         <a href="#" class="btn btn-primary">Kontakta mig</a>
       </div>
     </div>
     <div class="card">
     <img src={TestImage} class="card-img-top" alt="..."/>
       <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <h5 class="card-title">Namn: .</h5>
+        <p class="card-text">Telefon nr: .</p>
         <a href="#" class="btn btn-primary">Kontakta mig</a>
       </div>
     </div>

@@ -9,6 +9,7 @@ import {
 import Home from "./Home";
 import About from "./About";
 import Price from "./Price";
+import Footer from "./components/footer/footer.js";
 import "./components/navbar/navbar.css"
 import Logo from "./components/images/logo.png"
 class Main extends Component {
@@ -18,11 +19,24 @@ class Main extends Component {
             <div>
                 
                 <ul className="navigation">
+                <a href="/">
                 <img src={Logo} className="image"/>
-                <li><NavLink to="/">Home</NavLink></li>
-                <li><NavLink to="/price">Priser</NavLink></li>
-                <li><NavLink to="/about">Om oss</NavLink></li>
+                </a>
+                <div className="navlink">
+                    <li><NavLink to="/">Home</NavLink></li>
+                    <li><NavLink to="/price">Priser</NavLink></li>
+                    <li><NavLink to="/about">Om oss</NavLink></li>
+                </div>
+                
                 </ul>
+                <div className="navlink-hidden">
+                    <ul>
+                    <li><NavLink to="/">Home</NavLink></li>
+                    <li><NavLink to="/price">Priser</NavLink></li>
+                    <li><NavLink to="/about">Om oss</NavLink></li>
+                    </ul>
+                    
+                </div>
                 <div className="content">
                 <Routes>
                     <Route exact path="/" element={<Home/>}/>
@@ -31,6 +45,7 @@ class Main extends Component {
                 </Routes>
                 </div>
             </div>
+            <Footer/>
         </HashRouter>
         );}
     }

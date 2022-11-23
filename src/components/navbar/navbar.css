@@ -7,8 +7,16 @@
     width: 100%;
     margin-top: 10px;
     display: flex;
+    flex-direction: row;
+    gap:50px;
+}
+.navlink-hidden {
     text-align: center;
-    justify-content: space-between;
+    display: none;
+    flex-direction: row;
+    background: #ffffff;
+    
+    
 }
 .image{
     border-radius: 28px;
@@ -16,18 +24,14 @@
     
     
 }
-
 ul.navigation li {
     display: inline;
     list-style-type: none;
     margin: 0;
-    
 }
-
 ul.navigation {
     padding: 0;
 }
-
 ul.navigation li a {
     color: rgb(31, 2, 146);
     font-weight: bold;
@@ -46,15 +50,21 @@ li a:hover {
     
   }
 
-  @media only screen and (max-width: 700px) {
+  @media only screen and (max-width: 600px) {
     .navigation {
-      background-color: lightblue;
+      
+      height: 9vh;
       
     }
-    ul.navigation li{
-       
+    .navlink {
+        display:none;
+    }
+    .navlink-hidden {
+        display: block;
+
     }
     .image{
-
+        height: 9vh;
+        max-width: 100%;
     }
   }
