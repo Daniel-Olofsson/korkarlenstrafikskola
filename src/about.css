@@ -1,0 +1,22 @@
+.card {
+    width: 18rem;
+    display: inline-block;
+    padding: 5px;
+    
+}
+ul{
+   padding: 0;
+   
+    
+}
+li{
+    display: inline-block;
+    
+}
+.about-us{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.card-col {
+    margin-right: 0px;
+}
