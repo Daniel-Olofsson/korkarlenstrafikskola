@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./home.css";
 
 class Home extends Component {
     render() {
@@ -16,12 +17,50 @@ class Home extends Component {
 
     <p>Duis a turpis sed lacus dapibus elementum sed eu lectus.</p>
     <h2>Våra fordon</h2>
-        <p>Cras facilisis urna ornare ex volutpat, et
-        convallis erat elementum. Ut aliquam, ipsum vitae
-        gravida suscipit, metus dui bibendum est, eget rhoncus nibh
-        metus nec massa. Maecenas hendrerit laoreet augue
-        nec molestie. Cum sociis natoque penatibus et magnis
-        dis parturient montes, nascetur ridiculus mus.</p>
+    <hr></hr>
+        <div className="image-container">
+            <div className="gallery">
+                <div className="gallery-item">
+                    <img src={require('./components/images/car-images/IMG_6871.JPG')} className="gallery-image" alt="cars"/>                    
+
+                </div>
+                <div className="gallery-item">
+                    <img src={require('./components/images/car-images/IMG_6881.JPG')} className="gallery-image" alt="cars"/>                    
+
+                </div>
+                <div className="gallery-item">
+                    <img src={require('./components/images/car-images/IMG_6888.JPG')} className="gallery-image" alt="cars"/>                    
+
+                </div>
+                <div className="gallery-item">
+                    <img src={require('./components/images/car-images/IMG_6890.JPG')} className="gallery-image" alt="cars"/>                    
+
+                </div>
+                <div className="gallery-item">
+                    <img src={require('./components/images/car-images/IMG_6891.JPG')} className="gallery-image" alt="cars"/>                    
+
+                </div>
+                <div className="gallery-item">
+                    <img src={require('./components/images/car-images/IMG_6892.JPG')} className="gallery-image" alt="cars"/>                    
+
+                </div>
+                <div className="gallery-item">
+                    <img src={require('./components/images/car-images/IMG_6895.JPG')} className="gallery-image" alt="cars"/>                    
+
+                </div>
+                <div className="gallery-item">
+                    <img src={require('./components/images/car-images/IMG_6897.JPG')} className="gallery-image" alt="cars"/>                    
+
+                </div>
+                <div className="gallery-item">
+                    <img src={require('./components/images/car-images/Vit automat 2.jpg')} className="gallery-image" alt="cars"/>                    
+
+                </div>
+               
+
+            </div>
+        </div>
+        <hr></hr>
         <h2>Vem är vi?</h2>
         <p>Cras facilisis urna ornare ex volutpat, et
         convallis erat elementum. Ut aliquam, ipsum vitae
