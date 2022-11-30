@@ -22,61 +22,35 @@ class About extends Component {
     </ul>
     </div>
     
-    <h2 className="about-h">Våra anställda</h2>
+    <h2 className="center-h">Våra anställda</h2>
 <div class="row">
   <div class="col-sm-12" className="card-col">
     <div class="card">
     <img src={TestImage} class="card-img-top" alt="..."/>
       <div class="card-body">
-        <h5 class="card-title">Namn: .</h5>
-        <p class="card-text">Telefon nr: .</p>
-        <a href="#" class="btn btn-primary">Kontakta mig</a>
+        <h5 class="card-title">Namn: Exempel .</h5>
+        <p class="card-text">Telefon nr: 070202020.</p>
+        <a href="*" class="btn btn-primary">Kontakta mig</a>
       </div>
     </div>
     <div class="card">
     <img src={TestImage} class="card-img-top" alt="..."/>
       <div class="card-body">
-        <h5 class="card-title">Namn: .</h5>
-        <p class="card-text">Telefon nr: .</p>
-        <a href="#" class="btn btn-primary">Kontakta mig</a>
+        <h5 class="card-title">Namn: Exempel .</h5>
+        <p class="card-text">Telefon nr: 070202020.</p>
+        <a href="*" class="btn btn-primary">Kontakta mig</a>
       </div>
     </div>
     <div class="card">
     <img src={TestImage} class="card-img-top" alt="..."/>
       <div class="card-body">
-        <h5 class="card-title">Namn: .</h5>
-        <p class="card-text">Telefon nr: .</p>
-        <a href="#" class="btn btn-primary">Kontakta mig</a>
+        <h5 class="card-title">Namn: Exempel .</h5>
+        <p class="card-text">Telefon nr: 070202020.</p>
+        <a href="*" class="btn btn-primary">Kontakta mig</a>
       </div>
     </div>
     
     
-  </div>
-<div class="col-sm-12" className="card-col">
-    <div class="card">
-    <img src={TestImage} class="card-img-top" alt="..."/>
-      <div class="card-body">
-        <h5 class="card-title">Namn: .</h5>
-        <p class="card-text">Telefon nr: .</p>
-        <a href="#" class="btn btn-primary">Kontakta mig</a>
-      </div>
-    </div>
-    <div class="card">
-    <img src={TestImage} class="card-img-top" alt="..."/>
-      <div class="card-body">
-        <h5 class="card-title">Namn: .</h5>
-        <p class="card-text">Telefon nr: .</p>
-        <a href="#" class="btn btn-primary">Kontakta mig</a>
-      </div>
-    </div>
-    <div class="card">
-    <img src={TestImage} class="card-img-top" alt="..."/>
-      <div class="card-body">
-        <h5 class="card-title">Namn: .</h5>
-        <p class="card-text">Telefon nr: .</p>
-        <a href="#" class="btn btn-primary">Kontakta mig</a>
-      </div>
-    </div>
   </div>
 </div>
 
@@ -84,8 +58,8 @@ class About extends Component {
 
 
     
-    <h2>Har du frågor?</h2>
-    <p>Ring gärna oss på 0700-90 72 10 eller <a href="mailto:korkarlens.trafikskola@hotmail.com">mail</a>
+    <h2 className="center-h">Har du frågor?</h2>
+    <p className="center-h">Ring gärna oss på 0700-90 72 10 eller <a href="mailto:korkarlens.trafikskola@hotmail.com">mail</a>
     </p>
     
     </div>

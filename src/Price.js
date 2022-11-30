@@ -48,7 +48,7 @@ class Price extends Component {
         </tbody>
         </table>
         <br></br>
-        <h1>Tung lastbil C</h1>
+        <h1>Tung lastbil C/C1</h1>
         <table class="table table-hover">
         <thead>
             <tr>

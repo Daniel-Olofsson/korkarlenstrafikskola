@@ -45,7 +45,7 @@ li{
     padding-top: 2vh;
 }
 li a:hover {
-    background-color: #0099FF;
+    background-color: #bcc3c7b1;
     border-radius: 25px;
     
   }
@@ -60,8 +60,27 @@ li a:hover {
         display:none;
     }
     .navlink-hidden {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        
+        
+        min-width: 100%;
+        min-height: 100%;
+        border-radius: 25px;
+        margin-bottom: 15px;
+        
 
+    }
+    ul li a{
+        font-weight: bold;
+        list-style: none;
+        text-decoration: none;
+    }
+    li a:hover {
+        border-radius: 25px;
+        background-color:  #bcc3c7b1;
+        padding: 10px;
+        
     }
     .image{
         height: 9vh;
