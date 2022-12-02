@@ -74,3 +74,17 @@ li a:hover {
       }
 
   }
+
+  @media only screen and (max-width: 320px){
+    .navigation {
+      
+        height: 25vh;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        padding-top: 0;
+        font-size: small;
+        
+      }
+
+  }
