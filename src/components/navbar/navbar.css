@@ -88,3 +88,13 @@ li a:hover {
       }
 
   }
+  @media only screen and (max-width: 653px){
+    .navigation {
+      
+        height: 25vh;
+        display: flex;
+        flex-direction: column;
+        font-size: 10px;
+      }
+
+  }
