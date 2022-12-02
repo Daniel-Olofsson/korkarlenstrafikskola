@@ -3,9 +3,9 @@ import React, { Component } from "react";
 class Price extends Component {
     render() {
     return (
-    <div>
+    <div class="table-responsive">
         <h1>Personbil B</h1>
-        <table class="table table-hover">
+        <table class="table table-hover" className="table">
         <thead>
             <tr>
             <th scope="col">Lektioner och körpaket</th>

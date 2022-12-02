@@ -29,14 +29,6 @@ class Main extends Component {
                 </div>
                 
                 </ul>
-                <div className="navlink-hidden">
-                    <ul>
-                    <li><NavLink to="/">Home</NavLink></li>
-                    <li><NavLink to="/price">Priser</NavLink></li>
-                    <li><NavLink to="/about">Om oss</NavLink></li>
-                    </ul>
-                    
-                </div>
                 <div className="content">
                 <Routes>
                     <Route exact path="/" element={<Home/>}/>
