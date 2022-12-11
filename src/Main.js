@@ -12,23 +12,44 @@ import Price from "./Price";
 import Footer from "./components/footer/footer.js";
 import "./components/navbar/navbar.css"
 import Logo from "./components/images/logo.png"
+import StrLogo from "./components/images/strmedlem.jpg"
 class Main extends Component {
         render() {
         return (
         <HashRouter>
             <div>
+                    <div className="nav-wid">
+                    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+                            <div class="container-fluid">
+                                <a class="navbar-brand" href="/">
+                                <img src={Logo} className="image" class="d-inline-block align-text-top" width="250px" />
+                                <img src={StrLogo} className="image" class="d-inline-block align-text-top" width="60" height="40"/>
+                                </a>
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarNav">
+                                <ul class="navbar-nav ms-auto">
+                                    <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#"><NavLink to="/">Home</NavLink></a>
+                                    </li>
+                                    <li class="nav-item">
+                                    <a class="nav-link" href="#"><NavLink to="/price">Priser</NavLink></a>
+                                    </li>
+                                    <li class="nav-item">
+                                    <a class="nav-link" href="#"><NavLink to="/about">Om oss</NavLink></a>
+                                    </li>
+                                </ul>
+                                </div>
+                            </div>
+                        </nav>
+
+                    </div>
+                    
+            
+
                 
-                <ul className="navigation">
-                <a href="/">
-                <img src={Logo} className="image"/>
-                </a>
-                <div className="navlink">
-                    <li><NavLink to="/">Home</NavLink></li>
-                    <li><NavLink to="/price">Priser</NavLink></li>
-                    <li><NavLink to="/about">Om oss</NavLink></li>
-                </div>
                 
-                </ul>
                 <div className="content">
                 <Routes>
                     <Route exact path="/" element={<Home/>}/>

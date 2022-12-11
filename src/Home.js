@@ -63,7 +63,7 @@ class Home extends Component {
 
 
         <hr></hr>
-        <h2>Vem är vi?</h2>
+        <h2>Vilka är vi?</h2>
         <p>Cras facilisis urna ornare ex volutpat, et
         convallis erat elementum. Ut aliquam, ipsum vitae
         gravida suscipit, metus dui bibendum est, eget rhoncus nibh

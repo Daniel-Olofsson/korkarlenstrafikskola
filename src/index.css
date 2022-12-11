@@ -4,9 +4,8 @@ body {
 	animation: gradient 15s ease infinite;
 	height: 100vh;
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 80%;
+
+	
 	
 }
 
@@ -22,12 +21,19 @@ body {
 	}
 }
 .content {
-    background-color: #FFF;
-	border-radius: 25px;
+	border-radius: 39px;
+box-shadow: 0 4px 8px 0 rgb(4, 4, 4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+background-color: white;
 	padding-bottom: 25px;
 	padding-top: 25px;
 	padding-left: 15px;
 	margin-bottom: 15px;
+	width: 90%;
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+
     
 }
 .content h2 {
@@ -60,4 +66,26 @@ li {
 		margin: 0;
 		
 	}
+}
+
+a {
+	list-style: none;
+	list-style-type: none;
+	text-decoration: none;
+	font-weight: 900;
+	color: black;
+}
+
+
+.nav-wid {
+	height: 100%;
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgb(4, 4, 4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+nav {
+	width: 90%;
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
 }
