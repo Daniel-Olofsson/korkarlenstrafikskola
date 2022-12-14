@@ -9,29 +9,22 @@ Flexbox is used as a fallback so that browsers which don't support grid will sti
 */
 
 @import url(https://fonts.googleapis.com/css?family=Montserrat:500);
-
-
-
 *,
 *::before,
 *::after {
 	box-sizing: border-box;
 }
-
 .image-container {
 	max-width: 100rem;
 	margin: 0 auto;
 	padding: 0 2rem 2rem;
 }
-
-
 .gallery {
 	display: flex;
 	flex-wrap: wrap;
 	/* Compensate for excess margin on outer gallery flex items */
 	margin: -1rem -1rem;
 }
-
 .gallery-item {
 	/* Minimum width of 24rem and grow to fit available space */
 	flex: 1 0 24rem;
@@ -43,7 +36,6 @@ Flexbox is used as a fallback so that browsers which don't support grid will sti
     
    
 }
-
 .gallery-image {
 	display: block;
 	width: 100%;
@@ -52,18 +44,14 @@ Flexbox is used as a fallback so that browsers which don't support grid will sti
 	transition: transform 400ms ease-out;
     
 }
-
 .gallery-image:hover {
 	transform: scale(1.15);
     
 }
 .home-text {
 	max-width: 80%;
+	
 }
-
-
-
-
 @supports (display: grid) {
 	.gallery {
 		display: grid;

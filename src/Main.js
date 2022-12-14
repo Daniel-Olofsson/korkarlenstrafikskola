@@ -19,7 +19,7 @@ class Main extends Component {
         <HashRouter>
             <div>
                     <div className="nav-wid">
-                    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+                    <nav className="navbar navbar-expand-lg navbar-light bg-light ">
                             <div class="container-fluid">
                                 <a class="navbar-brand" href="/">
                                 <img src={Logo} className="image" class="d-inline-block align-text-top" width="250px" />

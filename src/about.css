@@ -1,9 +1,4 @@
-.card {
-    width: 18rem;
-    display: inline-block;
-    padding: 5px;
-    
-}
+
 ul{
    padding: 0;
    
@@ -16,10 +11,18 @@ li{
 .about-us{
     padding-bottom: 20px;
     padding-top: 20px;
+    padding-left: 20px;
+    
 }
 .card-col {
     margin-right: 0px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+li{
+    font-weight: bold;
+}
+.img-responsive{
+    width: 38vh;
 }

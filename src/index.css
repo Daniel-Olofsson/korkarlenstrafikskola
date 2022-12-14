@@ -4,7 +4,8 @@ body {
 	animation: gradient 15s ease infinite;
 	height: 100vh;
 	display: block;
-
+	
+	
 	
 	
 }
@@ -22,17 +23,18 @@ body {
 }
 .content {
 	border-radius: 39px;
-box-shadow: 0 4px 8px 0 rgb(4, 4, 4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-background-color: white;
+	box-shadow: 0 4px 8px 0 rgb(4, 4, 4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color: white;
 	padding-bottom: 25px;
 	padding-top: 25px;
 	padding-left: 15px;
 	margin-bottom: 15px;
 	width: 90%;
-	max-width: 1200px;
+	max-width: 1700px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 25px;
+	min-height: 100vh;
 
     
 }
@@ -47,6 +49,7 @@ h1{
 p {
 	font-family: 'Nobile', sans-serif;
 	margin-top: 20px;
+	font-weight: 600;
 }
 h2 {
 	font-family: 'Corben', cursive;
@@ -58,6 +61,7 @@ li {
 }
 .center-h {
     text-align: center;
+	padding-top: 20px;
 }
 @media only screen and (max-width: 375px){
 	.table{

@@ -5,7 +5,7 @@ class Price extends Component {
     return (
     <div class="table-responsive">
         <h1>Personbil B</h1>
-        <table class="table table-hover" className="table">
+        <table class="table table-hover">
         <thead>
             <tr>
             <th scope="col">Lektioner och körpaket</th>
