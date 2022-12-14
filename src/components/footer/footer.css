@@ -1,24 +1,12 @@
 .footer {
-    border-radius: 28px;
     background: #ffffff;
-    box-shadow: inset -19px 19px 37px #d9d9d9,
-            inset 19px -19px 37px rgb(255, 255, 255);
     height: 150px;
-    width: 100%;
     padding-top: 10px;
     font-size: smaller;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    bottom: 0;
+    position: relative;
     
-}
-.mail-adress {
-    
-}
-@media only screen and (max-width: 600px) {
-    .footer {
-        
-        height: 175px;
-        
-
-        
-        
-    }
 }

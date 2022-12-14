@@ -12,47 +12,17 @@ class About extends Component {
     <div className="about-us">
     <ul>
     <p>Trafiklärarna på Körkarlens trafikskola är välutbildade och duktiga på sina arbetsuppgifter.</p> 
-        <p>Körkarlens trafikskola är en trafikskola där du får ditt körkort snabbt, enkelt och billigt med hög kvalitet.</p>
+        <p>Vi har x lärare, Vi har x fordon, med x erfarenhet och funnits sedan 2005</p>
         <p>Vi erbjuder på Körkarlens trafikskola:</p>
         <li>✓ Alltid mycket låga och konkurrenskraftiga priser</li>
-        <li>✓ Hög kvalitet i undervisningen</li>
-        <li>✓ En trevlig och avspänd atmosfär på trafikskolan, vilket skapar en bra miljö för en god inlärning</li>
-        <li>✓ Vi har även ADR utbildningar.</li>
-        <li>✓ Vi erbjuder även utbildning för Yrkesförarkompetens (YKB)</li>
+        <br></br>
+        <li>✓ Hög kvalitet i undervisningen</li>'<br></br>
+        <li>✓ En trevlig och avspänd atmosfär på trafikskolan, vilket skapar en bra miljö för en god inlärning</li><br></br>
+        <li>✓ Vi har även ADR utbildningar.</li><br></br>
+        <li>✓ Vi erbjuder även utbildning för Yrkesförarkompetens (YKB)</li><br></br>
     </ul>
     </div>
-    
-    <h2 className="center-h">Våra anställda</h2>
-<div class="row">
-  <div class="col-sm-12" className="card-col">
-    <div class="card">
-    <img src={TestImage} class="card-img-top" alt="..."/>
-      <div class="card-body">
-        <h5 class="card-title">Namn: Exempel .</h5>
-        <p class="card-text">Telefon nr: 070202020.</p>
-        <a href="*" class="btn btn-primary">Kontakta mig</a>
-      </div>
-    </div>
-    <div class="card">
-    <img src={TestImage} class="card-img-top" alt="..."/>
-      <div class="card-body">
-        <h5 class="card-title">Namn: Exempel .</h5>
-        <p class="card-text">Telefon nr: 070202020.</p>
-        <a href="*" class="btn btn-primary">Kontakta mig</a>
-      </div>
-    </div>
-    <div class="card">
-    <img src={TestImage} class="card-img-top" alt="..."/>
-      <div class="card-body">
-        <h5 class="card-title">Namn: Exempel .</h5>
-        <p class="card-text">Telefon nr: 070202020.</p>
-        <a href="*" class="btn btn-primary">Kontakta mig</a>
-      </div>
-    </div>
-    
-    
-  </div>
-</div>
+
 
 
 
