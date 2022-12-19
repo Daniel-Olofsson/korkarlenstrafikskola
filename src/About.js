@@ -14,32 +14,37 @@ class About extends Component {
     <p>Trafiklärarna på Körkarlens trafikskola är välutbildade och duktiga på sina arbetsuppgifter.</p> 
         <p>Vi har x lärare, Vi har x fordon, med x erfarenhet och funnits sedan 2005</p>
         <p>Vi erbjuder på Körkarlens trafikskola:</p><br></br>
-        <li>✓ Alltid mycket låga och konkurrenskraftiga priser</li>
-        <br></br><br></br>
-        <li>✓ Hög kvalitet i undervisningen</li>'<br></br><br></br>
-        <li>✓ En trevlig och avspänd atmosfär på trafikskolan, vilket skapar en bra miljö för en god inlärning</li><br></br><br></br>
-        <li>✓ Vi har även ADR utbildningar.</li><br></br><br></br>
-        <li>✓ Vi erbjuder även utbildning för Yrkesförarkompetens (YKB)</li><br></br><br></br>
+        
+        <br></br>
+        <div className="about-li">
+            <li>✓ Alltid mycket låga och konkurrenskraftiga priser</li>
+            <li>✓ Hög kvalitet i undervisningen</li>'<br></br><br></br>
+            <li>✓ En trevlig och avspänd atmosfär på trafikskolan, vilket skapar en bra miljö för en god inlärning</li><br></br><br></br>
+            <li>✓ Vi har även ADR utbildningar.</li><br></br><br></br>
+            <li>✓ Vi erbjuder även utbildning för Yrkesförarkompetens (YKB)</li><br></br><br></br>
+        </div>
+        
     </ul>
     </div>
 
 
 
-
+    <h2 className="center-h">Vilka är vi?</h2>
+        <p>Körkarlens Trafikskola är en enskild firma vars verksamhet är trafikskola med körlektioner för personbil,
+            lastbil,lastbil med släp,bil med släp och buss och teori.
+             Ykb-utbildningar och ADR.</p>
+             <p>Kom gärna till kontoret till Sägengatan och besök oss!</p>
 
     
     <h2 className="center-h">Har du frågor?</h2>
     <div className="center h">
         <br></br>
-        <div className="card">
-            <div className="card-body">
+        
                 <div className="container-about">
-                    <img src={require('./components/images/car-images/IMG_FRAMSIDA.JPG')} className="img-responsive mx-auto d-block" alt="front door"/>
+                    <img src={require('./components/images/car-images/IMG_FRAMSIDA.JPG')} className="rounded-circle mx-auto d-block" alt="front door"/>
                 </div>
             
-            </div>
-        
-        </div>
+           
                                         
 
                 </div>

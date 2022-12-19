@@ -24,7 +24,7 @@ body {
 .content {
 	border-radius: 39px;
 	box-shadow: 0 4px 8px 0 rgb(4, 4, 4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	background-color: white;
+	
 	padding-bottom: 25px;
 	padding-top: 25px;
 	padding-left: 15px;
@@ -92,4 +92,13 @@ nav {
 	max-width: 1200px;
 	margin-left: auto;
 	margin-right: auto;
+}
+.tabs li{
+	margin: 3vh;
+	text-align: center;
+
+	
+	border-radius: 25px;
+	background-color: rgb(0, 0, 0);
+	color: white;
 }

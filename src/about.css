@@ -26,3 +26,8 @@ li{
 .img-responsive{
     width: 38vh;
 }
+.rounded-circle{
+    width: 25%;
+    height: 25%;
+    border: 3px solid black;
+}

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./home.css";
+import Tabbed from "./components/Tabbed"
 
 class Home extends Component {
     render() {
@@ -19,9 +20,15 @@ class Home extends Component {
         </p>
         <p className="lh-base">Förövrigt så vill vi informera att vi har gott om tider till körlektioner personbil, mellan kl 08.30-16.50 ring oss gärna på 0700-907210 eller maila dagar och tider önskemål till korkarlens.
         trafikskola@hotmail.com. Maila eller ring oss för frågor om exempelvis pris.</p>
+        <hr></hr>
+        <div>
+            <h2>Våra utbildningar</h2>
+            <Tabbed/>
+        </div>
+        <hr></hr>
     <h2 className="center-h">Våra fordon</h2>
     </div>
-    <hr></hr>
+    
         <div className="image-container">
             <p>Vi använder oss av ett flertal nya volkswagen för personbil och har diverse tyngre fordon för övriga utbildningar</p>
             <div className="gallery">
@@ -80,11 +87,8 @@ class Home extends Component {
 
 
         <hr></hr>
-        <h2 className="center-h">Vilka är vi?</h2>
-        <p>Körkarlens Trafikskola är en enskild firma vars verksamhet är trafikskola med körlektioner för personbil,
-            lastbil,lastbil med släp,bil med släp och buss och teori.
-             Ykb-utbildningar och ADR.</p>
-             <p>Kom gärna till kontoret till Sägengatan och besök oss!</p>
+        
+        
     </div>
     );
     }
