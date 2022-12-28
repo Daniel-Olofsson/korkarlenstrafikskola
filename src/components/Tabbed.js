@@ -17,7 +17,8 @@ function DrivingLicenses() {
       {activeTab === 'class-a' && (
         <div>
           <h3>Personbil B</h3>
-          <p>A Class A license allows you to operate any vehicle or combination of vehicles with a Gross Combination Weight Rating (GCWR) of 26,001 pounds or more, provided the Gross Vehicle Weight Rating (GVWR) of the vehicle being towed is more than 10,000 pounds.</p>
+          <p>A Class A license allows you to operate any vehicle or combination of vehicles with a Gross Combination Weight Rating (GCWR) of 26,001 pounds or more,</p>
+          <p>provided the Gross Vehicle Weight Rating (GVWR) of the vehicle being towed is more than 10,000 pounds.</p>
         </div>
       )}
       {activeTab === 'class-b' && (
