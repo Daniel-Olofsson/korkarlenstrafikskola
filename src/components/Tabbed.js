@@ -1,4 +1,9 @@
 import React, { useState } from 'react';
+import VehicleCar from "./images/vehicles/B.png"
+import VehicleCarTrailer from "./images/vehicles/BE.png"
+import VehicleTruck from "./images/vehicles/CE.png"
+import VehicleBuss from "./images/vehicles/D.png"
+
 
 function DrivingLicenses() {
   const [activeTab, setActiveTab] = useState('class-a');
@@ -10,27 +15,36 @@ function DrivingLicenses() {
   return (
     <div>
       <ul className="tabs">
-        <li className={activeTab === 'class-a' ? 'active' : ''} onClick={() => handleTabClick('class-a')}>Personbil B</li>
-        <li className={activeTab === 'class-b' ? 'active' : ''} onClick={() => handleTabClick('class-b')}>Personbil BE</li>
-        <li className={activeTab === 'class-c' ? 'active' : ''} onClick={() => handleTabClick('class-c')}>Lastbil C/C1</li>
+        <li className={activeTab === 'class-a' ? 'active' : ''} onClick={() => handleTabClick('class-a')}><img src={VehicleCar}/></li>
+        <li className={activeTab === 'class-b' ? 'active' : ''} onClick={() => handleTabClick('class-b')}><img src={VehicleCarTrailer}/></li>
+        <li className={activeTab === 'class-c' ? 'active' : ''} onClick={() => handleTabClick('class-c')}><img src={VehicleTruck}/></li>
+        <li className={activeTab === 'class-d' ? 'active' : ''} onClick={() => handleTabClick('class-d')}><img src={VehicleBuss}/></li>
       </ul>
       {activeTab === 'class-a' && (
         <div>
           <h3>Personbil B</h3>
-          <p>A Class A license allows you to operate any vehicle or combination of vehicles with a Gross Combination Weight Rating (GCWR) of 26,001 pounds or more,</p>
-          <p>provided the Gross Vehicle Weight Rating (GVWR) of the vehicle being towed is more than 10,000 pounds.</p>
+          <p>Med körkortsbehörigheten B får du bland annat köra personbilar och lätta lastbilar med en totalvikt på högst 3 500 kg. släpets totalvikt inte är mer än 750 kg.</p>
         </div>
       )}
       {activeTab === 'class-b' && (
         <div>
           <h3>Personbil BE</h3>
-          <p>A Class B license allows you to operate any single vehicle with a GVWR of 26,001 pounds or more, or any such vehicle towing a vehicle not in excess of 10,000 pounds GVWR.</p>
+          <p>Med behörigheten BE får du köra personbilar eller lätta lastbilar med en totalvikt på högst 3 500 kg och en eller flera släp kopplade till bilen. Släpets eller släpens sammanlagda totalvikt får dock inte vara över 3 500 kg.</p>
         </div>
       )}
       {activeTab === 'class-c' && (
         <div>
           <h3>Lastbil C/C1</h3>
-          <p>A Class C license allows you to operate any single vehicle, or combination of vehicles, that is not a Class A or Class B vehicle, but that either is designed to transport 16 or more passengers, including the driver, or is placarded for hazardous materials.</p>
+          <h4>C</h4>
+          <p>Körkortsbehörigheten C ger rätt att köra lastbilar utan övre viktbegränsning. Du får också köra personbilar med en totalvikt över 3500 kg utan övre viktbegränsning. Du får koppla till en lätt släpvagn med totalvikt på högst 750 kg.</p>
+          <h4>C1</h4>
+          <p>Körkortsbehörigheten C1 ger rätt att köra lastbilar med en totalvikt på högst 7500 kg. Med ett C1-körkort får du också köra personbilar med en totalvikt över 3500 kg men inte över 7500 kg.</p>
+        </div>
+      )}
+      {activeTab === 'class-d' && (
+        <div>
+          <h3>Buss D</h3>
+          <p>Körkortsbehörigheten D ger rätt att köra bussar oavsett antal sittplatser eller längd. Du får också dra en lätt släpvagn med totalvikt på högst 750 kg</p>
         </div>
       )}
     </div>
