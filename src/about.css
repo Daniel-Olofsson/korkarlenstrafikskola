@@ -31,3 +31,6 @@ li{
     height: 25%;
     border: 3px solid black;
 }
+.about-li{
+    margin-left: 20px;
+}
