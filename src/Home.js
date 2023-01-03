@@ -86,7 +86,7 @@ class Home extends Component {
         
 
 
-        <hr></hr>
+        
         
         
     </div>
