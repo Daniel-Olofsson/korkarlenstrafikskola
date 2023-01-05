@@ -15,15 +15,15 @@ class Price extends Component {
         <tbody>
             <tr>
             <th scope="row">40 minuter körlektion</th>
-            <td colspan="2">780 kr</td>
+            <td colspan="2">490 kr</td>
             </tr>
             <tr>
             <th scope="row">Körpaket fem lektioner</th>
-            <td colspan="2">3800 kr</td>
+            <td colspan="2">2375 kr</td>
             </tr>
             <tr>
             <th scope="row">Körpaket tio lektioner</th>
-            <td colspan="2">7500 kr</td>
+            <td colspan="2">4650 kr</td>
             </tr>
             <tr>
             <th scope="row">Intensivpaket tjugo lektioner</th>
@@ -31,11 +31,11 @@ class Price extends Component {
             </tr>
             <tr>
             <th scope="row">Riskettan</th>
-            <td>500 kr</td>
+            <td>600 kr</td>
             </tr>
             <tr>
             <th scope="row">Risktvåan</th>
-            <td>2150 kr</td>
+            <td>2000 kr</td>
             </tr>
             <tr>
             <th scope="row">B96 Tre lektioner</th>
