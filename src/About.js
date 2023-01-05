@@ -5,7 +5,8 @@ import TestImage from "./components/images/human.jpg"
 class About extends Component {
     render() {
     return (
-    <div>
+<div>
+    
     <h1>Om oss</h1>
 
     <h2 className="center-h">Vilka är vi?</h2>
@@ -23,60 +24,84 @@ class About extends Component {
         </div> 
     </div>
         <h2 className="center-h">Våra fordon</h2>
-        <div className="image-container">
-            <p>Vi använder oss av ett flertal nya volkswagen för personbil och har diverse tyngre fordon för övriga utbildningar</p>
-            <div className="gallery">
-                <div className="gallery-item">
-                    <img src={require('./components/images/car-images/IMG_6871.JPG')} className="gallery-image" alt="cars"/>                    
+        <p>Vi använder oss av ett flertal nya volkswagen för personbil och har diverse tyngre fordon för övriga utbildningar</p>
+        
+        <div class="row">
+            <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                <img
+                src={require('./components/images/car-images/IMG_6901.JPG')}
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt="car"
+                />
 
-                </div>
-                <div className="gallery-item">
-                    <img src={require('./components/images/car-images/IMG_6881.JPG')} className="gallery-image" alt="cars"/>                    
-
-                </div>
-                <div className="gallery-item">
-                    <img src={require('./components/images/car-images/IMG_6888.JPG')} className="gallery-image" alt="cars"/>                    
-
-                </div>
-                <div className="gallery-item">
-                    <img src={require('./components/images/car-images/IMG_6890.JPG')} className="gallery-image" alt="cars"/>                    
-
-                </div>
-                <div className="gallery-item">
-                    <img src={require('./components/images/car-images/IMG_6891.JPG')} className="gallery-image" alt="cars"/>                    
-
-                </div>
-                <div className="gallery-item">
-                    <img src={require('./components/images/car-images/IMG_6892.JPG')} className="gallery-image" alt="cars"/>                    
-
-                </div>
-                <div className="gallery-item">
-                    <img src={require('./components/images/car-images/IMG_6895.JPG')} className="gallery-image" alt="cars"/>                    
-
-                </div>
-                <div className="gallery-item">
-                    <img src={require('./components/images/car-images/IMG_6897.JPG')} className="gallery-image" alt="cars"/>                    
-
-                </div>
-                <div className="gallery-item">
-                    <img src={require('./components/images/car-images/Vit automat 2.jpg')} className="gallery-image" alt="cars"/>                    
-
-                </div>
-                <div className="gallery-item">
-                    <img src={require('./components/images/car-images/IMG_6903.JPG')} className="gallery-image" alt="cars"/>                    
-
-                </div>
-                <div className="gallery-item">
-                    <img src={require('./components/images/car-images/IMG_FORDON1.jpg')} className="gallery-image" alt="cars"/>                    
-
-                </div>
-                <div className="gallery-item">
-                    <img src={require('./components/images/car-images/IMG_6901.JPG')} className="gallery-image" alt="cars"/>                    
-
-                </div>
+                <img
+                src={require('./components/images/car-images/IMG_FORDON1.jpg')}
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt="car"
+                />
             </div>
+
+            <div class="col-lg-4 mb-4 mb-lg-0">
+                <img
+                src={require('./components/images/car-images/Vit automat 2.jpg')}
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt="car"
+                />
+
+                <img
+                src={require('./components/images/car-images/IMG_6897.JPG')}
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt="car"
+                />
+            </div>
+
+            <div class="col-lg-4 mb-4 mb-lg-0">
+                <img
+                src={require('./components/images/car-images/IMG_6895.JPG')}
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt="car"
+                />
+
+                <img
+                src={require('./components/images/car-images/IMG_6892.JPG')}
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt="car"
+                />
+            </div>
+
+
+            <div class="col-lg-4 mb-4 mb-lg-0">
+                <img
+                src={require('./components/images/car-images/IMG_6891.JPG')}
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt="car"
+                />
+
+                <img
+                src={require('./components/images/car-images/IMG_6890.JPG')}
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt="car"
+                />
+            </div>
+
+            <div class="col-lg-4 mb-4 mb-lg-0">
+                <img
+                src={require('./components/images/car-images/IMG_6881.JPG')}
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt="car"
+                />
+
+                <img
+                src={require('./components/images/car-images/IMG_6888.JPG')}
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt="car"
+                />
+            </div>
+        
         </div>
-    </div>
+
+
+</div>
 
     
     );

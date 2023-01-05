@@ -4,6 +4,7 @@ import VehicleCarTrailer from "./images/vehicles/BE.png"
 import VehicleTruck from "./images/vehicles/C.png"
 import VehicleBuss from "./images/vehicles/D.png"
 import VehicleTruckCE from "./images/vehicles/CE.png"
+import "../home.css"
 
 
 
