@@ -1,8 +1,6 @@
 
 ul{
    padding: 0;
-   
-    
 }
 li{
     display: inline-block;
@@ -34,3 +32,6 @@ li{
 .about-li{
     margin-left: 20px;
 }
+
+
+
