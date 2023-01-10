@@ -9,7 +9,7 @@ class Home extends Component {
       <div>
         <div className="home-text">
             
-            <h2 className="center-h">Information</h2>
+            <h1 className="centerText">Information</h1>
             <hr></hr>
             <h3 className="center-h">Jul Erbjudande </h3>
             <p className="lh-base">
@@ -58,7 +58,7 @@ class Home extends Component {
                 <Tabbed/>
             </div>
 
-            <hr></hr>
+            
         </div>
     </div>
     );
