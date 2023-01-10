@@ -10,7 +10,8 @@ class Home extends Component {
         <div className="home-text">
             
             <h1 className="centerText">Information</h1>
-            <hr></hr>
+            <br></br>
+            
             <h3 className="center-h">Jul Erbjudande </h3>
             <p className="lh-base">
                 5 körlektioner för 2250 kr ( ink vägmärkesbok)
