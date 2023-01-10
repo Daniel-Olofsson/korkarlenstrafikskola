@@ -10,6 +10,7 @@ class Home extends Component {
         <div className="home-text">
             
             <h2 className="center-h">Information</h2>
+            <hr></hr>
             <h3 className="center-h">Jul Erbjudande </h3>
             <p className="lh-base">
                 5 körlektioner för 2250 kr ( ink vägmärkesbok)
@@ -21,21 +22,30 @@ class Home extends Component {
                 Förövrigt så vill vi informera att vi har gott om tider till körlektioner personbil, mellan kl 08.30-16.50 ring oss gärna på 0700-907210 eller maila dagar och tider önskemål till korkarlens.
                 trafikskola@hotmail.com. Maila eller ring oss för frågor om exempelvis pris.
             </p>
-            
+            <br></br>
             <hr></hr>
+            
+        <div>
+            <p>Vi har flera skickliga och professionella lärare och
+                    trafiklärarna på Körkarlens trafikskola har många års erfarenhet.</p>
+
+                    <p>Vi använder oss av nya volkswagen, både automatiska, manuella fordon och
+                    diverse märken till tyngre fordon. 
+                    Vi har funnits sedan 2005</p>
+                <p>Vi erbjuder på Körkarlens trafikskola:</p>
+        </div>
+
+
+            
 
             <div className="">
             <ul>
-            <p>Trafiklärarna på Körkarlens trafikskola är välutbildade och duktiga på sina arbetsuppgifter.</p> 
-                <p>Vi har x lärare, Vi har x fordon, med x erfarenhet och funnits sedan 2005</p>
-                <p>Vi erbjuder på Körkarlens trafikskola:</p><br></br>
-                
                 <br></br>
                 <div className="about-li">
-                    <li>✓ Alltid mycket låga och konkurrenskraftiga priser</li>
-                    <li>✓ Hög kvalitet i undervisningen</li>'<br></br><br></br>
-                    <li>✓ En trevlig och avspänd atmosfär på trafikskolan, vilket skapar en bra miljö för en god inlärning</li><br></br><br></br>
-                    <li>✓ Vi har även ADR utbildningar.</li><br></br><br></br>
+                    <li>✓ Alltid mycket låga och konkurrenskraftiga priser</li><br></br>
+                    <li>✓ Hög kvalitet i undervisningen</li><br></br>
+                    <li>✓ En trevlig och avspänd atmosfär på trafikskolan, vilket skapar en bra miljö för en god inlärning</li><br></br>
+                    <li>✓ Vi har även ADR utbildningar.</li><br></br>
                     <li>✓ Vi erbjuder även utbildning för Yrkesförarkompetens (YKB)</li><br></br><br></br>
                 </div>
                 
