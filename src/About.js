@@ -17,119 +17,116 @@ class About extends Component {
         <p>Vi använder oss av ett flertal nya volkswagen för personbil och har diverse tyngre fordon för övriga utbildningar</p>
         <br></br>
         
-        <div className="margin-auto">
-        <div class="row">
-
-            <div class="col-lg-3">
-                <img
-                src={require('./components/images/car-images/IMG_6901.JPG')}
-                class="w-100 shadow-1-strong rounded mb-2"
-                alt="car"
-                />
-
-                <img
-                src={require('./components/images/car-images/IMG_FORDON1.jpg')}
-                class="w-100 shadow-1-strong rounded mb-2"
-                alt="car"
-                />
-            </div>
-
-            <div class="col-lg-3">
-                <img
-                src={require('./components/images/car-images/Vit automat 2.jpg')}
-                class="w-100 shadow-1-strong rounded mb-2"
-                alt="car"
-                />
-
-                <img
-                src={require('./components/images/car-images/IMG_6897.JPG')}
-                class="w-100 shadow-1-strong rounded mb-2"
-                alt="car"
-                />
-            </div>
-            <div class="col-lg-3 mb-4 mb-lg-0">
-                <img
-                src={require('./components/images/car-images/IMG_6895.JPG')}
-                class="w-100 shadow-1-strong rounded mb-4"
-                alt="car"
-                />
-
-                <img
-                src={require('./components/images/car-images/IMG_6892.JPG')}
-                class="w-100 shadow-1-strong rounded mb-4"
-                alt="car"
-                />
-            </div>
-            <div class="col-lg-3 mb-4 mb-lg-0">
-                <img
-                src={require('./components/images/car-images/IMG_6881.JPG')}
-                class="w-100 shadow-1-strong rounded mb-4"
-                alt="car"
-                />
-
-                <img
-                src={require('./components/images/car-images/IMG_6888.JPG')}
-                class="w-100 shadow-1-strong rounded mb-4"
-                alt="car"
-                />
-            </div>
-            <div className="row">
-
-            </div>
-            <div class="col-lg-3 mb-4 mb-lg-0">
-                <img
-                src={require('./components/images/car-images/IMG_6891.JPG')}
-                class="w-100 shadow-1-strong rounded mb-4"
-                alt="car"
-                />
-
-                <img
-                src={require('./components/images/car-images/IMG_6890.JPG')}
-                class="w-100 shadow-1-strong rounded mb-4"
-                alt="car"
-                />
-            </div>
-            <div class="col-lg-3 mb-4 mb-lg-0">
-                <img
-                src={require('./components/images/car-images/IMG_FORDON2.JPG')}
-                class="w-100 shadow-1-strong rounded mb-4"
-                alt="car"
-                />
-
-                <img
-                src={require('./components/images/car-images/IMG_6916.JPG')}
-                class="w-100 shadow-1-strong rounded mb-4"
-                alt="car"
-                />
-            </div>
-            <div class="col-lg-3">
-                <img
-                src={require('./components/images/car-images/IMG_6909.JPG')}
-                class="w-100 shadow-1-strong rounded mb-4"
-                alt="car"
-                />
-
-                <img
-                src={require('./components/images/car-images/IMG_6910.JPG')}
-                class="w-100 shadow-1-strong rounded mb-4"
-                alt="car"
-                />
-            </div>
-            <div class="col-lg-3">
-                <img
-                src={require('./components/images/car-images/IMG_6871.JPG')}
-                class="w-100 shadow-1-strong rounded mb-4"
-                alt="car"
-                />
-
-                <img
-                src={require('./components/images/car-images/IMG_6903.JPG')}
-                class="w-100 shadow-1-strong rounded mb-4"
-                alt="car"
-                />
-            </div>
         
-        </div>
+        <div className="margin-auto">
+        
+        
+            <div class="row">
+                <div class="col-lg-3">
+                    <img
+                    src={require('./components/images/car-images/IMG_6901.JPG')}
+                    class="w-100 shadow-1-strong rounded mb-2"
+                    alt="car"
+                    />
+
+                    <img
+                    src={require('./components/images/car-images/IMG_FORDON1.jpg')}
+                    class="w-100 shadow-1-strong rounded mb-2"
+                    alt="car"
+                    />
+                </div>
+                <div class="col-lg-3">
+                    <img
+                    src={require('./components/images/car-images/Vit automat 2.jpg')}
+                    class="w-100 shadow-1-strong rounded mb-2"
+                    alt="car"
+                    />
+
+                    <img
+                    src={require('./components/images/car-images/IMG_6897.JPG')}
+                    class="w-100 shadow-1-strong rounded mb-2"
+                    alt="car"
+                    />
+                </div>
+                <div class="col-lg-3 mb-4 mb-lg-0">
+                    <img
+                    src={require('./components/images/car-images/IMG_6895.JPG')}
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="car"
+                    />
+
+                    <img
+                    src={require('./components/images/car-images/IMG_6892.JPG')}
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="car"
+                    />
+                </div>
+                <div class="col-lg-3 mb-4 mb-lg-0">
+                    <img
+                    src={require('./components/images/car-images/IMG_6881.JPG')}
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="car"
+                    />
+
+                    <img
+                    src={require('./components/images/car-images/IMG_6888.JPG')}
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="car"
+                    />
+                </div>
+                <div class="col-lg-3 mb-4 mb-lg-0">
+                    <img
+                    src={require('./components/images/car-images/IMG_6891.JPG')}
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="car"
+                    />
+
+                    <img
+                    src={require('./components/images/car-images/IMG_6890.JPG')}
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="car"
+                    />
+                </div>
+                <div class="col-lg-3 mb-4 mb-lg-0">
+                    <img
+                    src={require('./components/images/car-images/IMG_FORDON2.JPG')}
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="car"
+                    />
+
+                    <img
+                    src={require('./components/images/car-images/IMG_6916.JPG')}
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="car"
+                    />
+                </div>
+                <div class="col-lg-3">
+                    <img
+                    src={require('./components/images/car-images/IMG_6909.JPG')}
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="car"
+                    />
+
+                    <img
+                    src={require('./components/images/car-images/IMG_6910.JPG')}
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="car"
+                    />
+                </div>
+                <div class="col-lg-3">
+                    <img
+                    src={require('./components/images/car-images/IMG_6871.JPG')}
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="car"
+                    />
+
+                    <img
+                    src={require('./components/images/car-images/IMG_6903.JPG')}
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="car"
+                    />
+                </div>
+            </div>
         <hr></hr>
         </div>
         
@@ -139,7 +136,8 @@ class About extends Component {
         <div className="container-about">
             <img src={require('./components/images/car-images/IMG_FRAMSIDA.JPG')} className="rounded-circle mx-auto d-block" alt="front door"/>
             <p className="center-h">Besök oss på Sägengatan 31, eller ring gärna oss på 0700-90 72 10 eller <a href="mailto:korkarlens.trafikskola@hotmail.com">mail</a></p>
-        </div> 
+        </div>
+         
     </div>
 
 

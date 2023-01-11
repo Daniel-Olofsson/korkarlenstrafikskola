@@ -27,15 +27,17 @@ class footer extends Component {
                                 <address>
                                 Öppettider
                                 <br></br>
-                                Måndag, fredag 09.00 till 13:00
+                                Måndag 09.00 - 15.00, Tisdag 13.00 - 17.00 
                                 <br></br>
-                                Tis-Tors 13.00-17.00 
+                                Onsdag 09.00 - 17:00, Tors 13.00 - 17.00, 
+                                <br></br>
+                                fredag 09.00 till 13:00
                                 </address>
                             </div>
                             <div class="col-4">
                                 <h5 class="title mb-3">Kontakt</h5>
                                 <adress>
-                                031-52 54 54
+                                0700 907210
                                 <br></br>
                                 korkarlens.trafikskola@hotmail.com<br></br>
                                 <a href="mailto:korkarlens.trafikskola@hotmail.com">Maila oss!</a>

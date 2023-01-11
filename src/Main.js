@@ -31,7 +31,7 @@ class Main extends Component {
                                 <div class="collapse navbar-collapse" id="navbarNav">
                                 <ul class="navbar-nav ms-auto">
                                     <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#"><NavLink to="/">Home</NavLink></a>
+                                    <a class="nav-link active" aria-current="page" href="#"><NavLink to="/">Hem</NavLink></a>
                                     </li>
                                     <li class="nav-item">
                                     <a class="nav-link" href="#"><NavLink to="/price">Priser</NavLink></a>
