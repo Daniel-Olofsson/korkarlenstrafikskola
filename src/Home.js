@@ -13,12 +13,12 @@ class Home extends Component {
             <br></br>
             
             <h3 className="center-h">Jul Erbjudande </h3>
+            <p className="lh-base">5 körlektioner för 2250 kr ( ink vägmärkesbok)</p>
+            <p className="lh-base">10 körlektioner för 4300 kr ( ett körhäfte och vägmärkesboken)</p>
             <p className="lh-base">
-                5 körlektioner för 2250 kr ( ink vägmärkesbok)
-                10 körlektioner för 4300 kr ( ett körhäfte och vägmärkesboken)
                 Intensiv paketet 20 körlektioner för 8700 kr ( körkortsboken och vägmärkesboken och teoritester från datan)
                 Gäller från 1 december, 31 januari 2023. 
-            </p>
+                </p>
             <p className="lh-base">
                 Förövrigt så vill vi informera att vi har gott om tider till körlektioner personbil, mellan kl 08.30-16.50 ring oss gärna på 0700-907210 eller maila dagar och tider önskemål till korkarlens.
                 trafikskola@hotmail.com. Maila eller ring oss för frågor om exempelvis pris.
@@ -27,12 +27,11 @@ class Home extends Component {
             <hr></hr>
             
         <div>
-            <p>Vi har flera skickliga och professionella lärare och
-                    trafiklärarna på Körkarlens trafikskola har många års erfarenhet.</p>
+            <p>Vi har flera skickliga och professionella trafiklärarna på Körkarlens trafikskola och dom har många års erfarenhet.</p>
 
-                    <p>Vi använder oss av nya volkswagen, både automatiska, manuella fordon och
-                    diverse märken till tyngre fordon. 
-                    Vi har funnits sedan 2005</p>
+                <p>Vi använder oss av nya volkswagen, både automatiska, manuella fordon och
+                diverse märken till tyngre fordon. 
+                Vi har funnits sedan 2005</p>
                 <p>Vi erbjuder på Körkarlens trafikskola:</p>
         </div>
 
