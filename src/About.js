@@ -6,11 +6,15 @@ class About extends Component {
     render() {
     return (
 <div>
-    <h1 className="centerText">Om oss</h1><br></br><br></br>
+    <h1 className="centerText">Om oss</h1><br></br>
     <h3 className="center-h">Vilka är vi?</h3>
         <p>Körkarlens Trafikskola är en enskild firma vars verksamhet är trafikskola med körlektioner för personbil,
             lastbil,lastbil med släp,bil med släp och buss och teori.
              Ykb-utbildningar och ADR.</p>
+             <p>Vi har funnits sedan 2005.</p>
+        <hr></hr>
+        <h3 className="center-h">Våra lärare</h3>
+        <p className="">Vi har flera skickliga och professionella trafiklärare på Körkarlens trafikskola och dom har många års erfarenhet.</p>
         <p>Kom gärna till kontoret till Sägengatan och besök oss!</p>
         <hr></hr>
         <h2 className="center-h">Våra fordon</h2>

@@ -4,7 +4,7 @@ class Price extends Component {
     render() {
     return (
     <div class="table-responsive">
-        <h1 className="centerText">Priser</h1><br></br>
+        <h1 className="centerText">Priser</h1><br></br><br></br>
         <h1>Personbil B</h1>
         <table class="table table-hover">
         <thead>
