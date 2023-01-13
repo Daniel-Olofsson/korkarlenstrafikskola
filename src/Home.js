@@ -27,7 +27,7 @@ class Home extends Component {
             <hr></hr>
             
         <div>
-            <p>Vi har flera skickliga och professionella trafiklärarna på Körkarlens trafikskola och dom har många års erfarenhet.</p>
+            <p>Vi har flera skickliga och professionella trafiklärare på Körkarlens trafikskola och dom har många års erfarenhet.</p>
 
                 <p>Vi använder oss av nya volkswagen, både automatiska, manuella fordon och
                 diverse märken till tyngre fordon. 
