@@ -9,10 +9,10 @@ class footer extends Component {
                 
                     <div class="container">
                         <div class="row">
-                            <div class="col-4">
+                            <div class="col-md-4 col-sm-12">
                                 <h5 class="title mb-3">Kontakt</h5>
                                 <adress>
-                                0700 907210
+                                Tlf 07-0090 72 10
                                 <br></br>
                                 
                                 <a href="mailto:korkarlens.trafikskola@hotmail.com">Maila oss!</a><br></br>
@@ -20,19 +20,17 @@ class footer extends Component {
                                 hotmail.com
                                 </adress>
                             </div>
-                            <div class="col-4">
-                                <h5 class="title mb-3">Besök oss</h5>
+                            <div class="col-md-4 col-sm-12">
+                                <h5 class="title mb-3">Öppettider</h5>
                                 <address>
-                                Öppettider
-                                <br></br>
                                 Måndag 09.00 - 15.00, Tisdag 13.00 - 17.00 
                                 <br></br>
-                                Onsdag 09.00 - 17:00, Tors 13.00 - 17.00, 
+                                Onsdag 09.00 - 17:00, Tors 13.00 - 17.00
                                 <br></br>
-                                fredag 09.00 till 13:00
+                                Fredag 09.00 - 13:00
                                 </address>
                             </div>
-                            <div class="col-4">
+                            <div class="col-md-4 col-sm-16">
                                 <h5 class="title mb-3">Adress </h5>
                                 
                                 <adress>

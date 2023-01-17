@@ -18,8 +18,7 @@ class Home extends Component {
                 </p>
             <p className="lh-base">
                 Förövrigt så vill vi informera att vi har gott om tider till körlektioner personbil, 
-                mellan kl 08.30-16.50 ring oss gärna på 0700-907210 eller maila dagar och tider önskemål till korkarlens.
-                trafikskola@hotmail.com. Maila eller ring oss för frågor om exempelvis pris.
+                mellan kl 08.30-16.50 ring oss gärna på 0700-907210 eller maila dagar och tider önskemål till <a href="mailto: korkarlens.trafikskola@hotmail.com">korkarlens.trafikskola@hotmail.com</a>. Maila eller ring oss för frågor om exempelvis pris.
             </p>
             <br></br>
             <hr></hr>
