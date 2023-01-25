@@ -25,7 +25,7 @@ class Home extends Component {
                     Handledarekurs på lördag
                 </h3>
                 <p>
-                    Lördagen den 28/1 har vi handledarekurs klockan 11.00 på kontoret. 
+                    Lördagen den 28/1 har vi handledarekurs klockan 11.00 på sägengatan 31b. 
                 <p>
                     Det finns platser kvar, ring och boka på 0700-907210.
                 </p>
