@@ -20,6 +20,21 @@ class Home extends Component {
                 Förövrigt så vill vi informera att vi har gott om tider till körlektioner personbil, 
                 mellan kl 08.30-16.50 ring oss gärna på 0700-907210 eller maila dagar och tider önskemål till <a href="mailto: korkarlens.trafikskola@hotmail.com">korkarlens.trafikskola@hotmail.com</a>. Maila eller ring oss för frågor om exempelvis pris.
             </p>
+            <div>
+                <h3>
+                    Handledarekurs på lördag
+                </h3>
+                <p>
+                    Lördagen den 28/1 har vi handledarekurs klockan 11.00 på kontoret. 
+                <p>
+                    Det finns platser kvar, ring och boka på 0700-907210.
+                </p>
+                    250 kr per person.
+                </p>
+                <p>
+                    Mvh Körkarlens trafikskola
+                </p>
+            </div>
             <br></br>
             <hr></hr>
             
