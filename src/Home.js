@@ -9,32 +9,14 @@ class Home extends Component {
         <div className="home-text">
             <h1 className="centerText">Information</h1>
             <br></br>
-            <h3 className="center-h">Jul Erbjudande </h3>
-            <p className="lh-base">5 körlektioner för 2250 kr (ink vägmärkesbok)</p>
-            <p className="lh-base">10 körlektioner för 4300 kr (ett körhäfte och vägmärkesboken)</p>
-            <p className="lh-base">
-                Intensiv paketet 20 körlektioner för 8700 kr (körkortsboken och vägmärkesboken och teoritester från datan)
-                Gäller från 1 december, 31 januari 2023. 
-                </p>
             <p className="lh-base">
                 Förövrigt så vill vi informera att vi har gott om tider till körlektioner personbil, 
-                mellan kl 08.30-16.50 ring oss gärna på 0700-907210 eller maila dagar och tider önskemål till <a href="mailto: korkarlens.trafikskola@hotmail.com">korkarlens.trafikskola@hotmail.com</a>. Maila eller ring oss för frågor om exempelvis pris.
+                mellan kl 08.30-16.50. 
+                
             </p>
-            <div>
-                <h3>
-                    Handledarekurs på lördag
-                </h3>
-                <p>
-                    Lördagen den 28/1 har vi handledarekurs klockan 11.00 på sägengatan 31b. 
-                <p>
-                    Det finns platser kvar, ring och boka på 0700-907210.
-                </p>
-                    250 kr per person.
-                </p>
-                <p>
-                    Mvh Körkarlens trafikskola
-                </p>
-            </div>
+            <p className="1h-base">Ring gärna oss på 0700-907210 eller maila dagar och tider önskemål till <a href="mailto: korkarlens.trafikskola@hotmail.com">korkarlens.trafikskola@hotmail.com</a>. 
+                Maila eller ring oss för frågor om exempelvis pris.</p>
+            <p>Mvh Körkarlens Trafikskola</p>
             <br></br>
             <hr></hr>
             
