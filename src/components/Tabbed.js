@@ -28,7 +28,8 @@ function DrivingLicenses() {
       {activeTab === 'class-a' && (
         <div className='max-w'>
           <h3>Personbil B</h3>
-          <p>Med körkortsbehörigheten B får du bland annat köra personbilar och lätta lastbilar med en totalvikt på högst 3 500 kg. släpets totalvikt inte är mer än 750 kg.</p>
+          <p>Med körkortsbehörigheten B får du bland annat köra personbilar och lätta lastbilar med en totalvikt på högst 3 500 kg.</p>
+          <p>Släpets totalvikt inte är mer än 750 kg.</p>
         </div>
       )}
       {activeTab === 'class-b' && (

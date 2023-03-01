@@ -26,8 +26,30 @@ Flexbox is used as a fallback so that browsers which don't support grid will sti
 }
 
 
-li:hover {
+.class-a li:hover {
 	background-color:ghostwhite;	
 	border-radius: 15px;
 	cursor:pointer
   }
+
+
+  .about-ul {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+  }
+  
+  .about-li {
+	display: flex;
+	align-items: center;
+	text-align: left;
+	margin: 10px 0;
+  }
+  
+  
+  
