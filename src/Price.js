@@ -5,7 +5,7 @@ class Price extends Component {
     return (
     <div class="table-responsive">
         <h1 className="centerText">Priser</h1><br></br><br></br>
-        <h1>Personbil B</h1>
+        <h1 className="padding-zero">Personbil B</h1>
         <table class="table table-hover">
         <thead>
             <tr>
@@ -49,7 +49,7 @@ class Price extends Component {
         </tbody>
         </table>
         <br></br>
-        <h1>Tung lastbil C/C1</h1>
+        <h1 className="padding-zero">Tung lastbil C/C1</h1>
         <table class="table table-hover">
         <thead>
             <tr>
@@ -82,7 +82,7 @@ class Price extends Component {
         </tbody>
         </table>
         <br></br>
-        <h1>Tung lastbil CE</h1>
+        <h1 className="padding-zero">Tung lastbil CE</h1>
         <table class="table table-hover">
         <thead>
             <tr>
@@ -110,7 +110,7 @@ class Price extends Component {
         </tbody>
         </table>
         <br></br>
-        <h1>Buss D</h1>
+        <h1 className="padding-zero">Buss D</h1>
         <table class="table table-hover">
         <thead>
             <tr>
@@ -125,7 +125,7 @@ class Price extends Component {
             </tr>
             <tr>
             <th scope="row">Körpaket 5 lektioner</th>
-            <td>3800 kr</td>
+            <td colSpan="2">3800 kr</td>
             </tr>
             <tr>
             <th scope="row">Körpaket 10 lektioner</th>
@@ -138,7 +138,7 @@ class Price extends Component {
         </tbody>
         </table>
         <br></br>
-        <h1>Övrigt</h1>
+        <h1 className="padding-zero">Övrigt</h1>
         <table class="table table-hover">
         <thead>
             <tr>
@@ -153,7 +153,7 @@ class Price extends Component {
             </tr>
             <tr>
             <th scope="row">Teoriprov</th>
-            <td>325 kr</td>
+            <td colSpan="2">325 kr</td>
             </tr>
             <tr>
             <th scope="row">Körprov</th>
@@ -166,7 +166,7 @@ class Price extends Component {
         </tbody>
         </table>
         <br></br>
-        <h1>Uthyrning av fordon</h1>
+        <h1 className="padding-zero">Uthyrning av fordon</h1>
         <table class="table table-hover">
         <thead>
             <tr>
