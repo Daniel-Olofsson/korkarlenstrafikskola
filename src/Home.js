@@ -17,7 +17,7 @@ class Home extends Component {
             </p>
             <p className="1h-base">Ring gärna oss på 0700-907210 eller maila dagar och tider önskemål till <a href="mailto: korkarlens.trafikskola@hotmail.com">korkarlens.trafikskola@hotmail.com</a>. 
                 Maila eller ring oss för frågor om exempelvis pris.</p>
-            <p>Mvh Körkarlens Trafikskola</p>
+            <p>Med vänligar hälsningar personalen</p>
             <br></br>
             <hr></hr>
             

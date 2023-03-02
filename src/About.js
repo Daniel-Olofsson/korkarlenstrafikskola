@@ -7,18 +7,19 @@ class About extends Component {
     return (
 <div>
     <h1 className="centerText">Om oss</h1><br></br>
-    <h3 className="center-h">Vilka är vi?</h3>
-        <p>Körkarlens Trafikskola är en enskild firma vars verksamhet är trafikskola med körlektioner för personbil,
+    <h3 className="bold-header">Vilka är vi?</h3>
+        <p className="centerText">Körkarlens Trafikskola är en enskild firma vars verksamhet är trafikskola med körlektioner för personbil,
             lastbil,lastbil med släp,bil med släp och buss och teori.
              Ykb-utbildningar och ADR.</p>
-             <p>Vi har funnits sedan 2005.</p>
+             <p className="centerText">Vi har funnits sedan 2005.</p>
         <hr></hr>
-        <h3 className="center-h">Våra lärare</h3>
-        <p className="">Vi har flera skickliga och professionella trafiklärare på Körkarlens trafikskola och dom har många års erfarenhet.</p>
-        <p>Kom gärna till kontoret till Sägengatan och besök oss!</p>
+        <h3 className="bold-header">Våra lärare</h3>
+        <p className="centerText">Vi har flera pedagogiska och professionella trafiklärare som har många års erfarenhet och kunskap.</p>
+        <p className="centerText">Kom gärna och besök oss på vårt kontor Sägengatan 31 B!</p>
+        <p className="centerText">(Våra tyngre fordon finns på importgatan 30.)</p>
         <hr></hr>
-        <h2 className="center-h">Våra fordon</h2>
-        <p>Vi använder oss av ett flertal nya volkswagen för personbil och har diverse tyngre fordon för övriga utbildningar</p>
+        <h3 className="bold-header">Våra fordon</h3>
+        <p className="centerText">Vi använder oss av ett flertal nya Volkswagen för personbil och har diverse tyngre fordon för övriga utbildningar.</p>
         <br></br>
         
         

@@ -30,7 +30,10 @@ li{
     border: 3px solid black;
 }
 
-
+.bold-header{
+    font-weight: bold;
+    text-align: center;
+}
 
 
 
