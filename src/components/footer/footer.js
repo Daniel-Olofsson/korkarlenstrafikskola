@@ -22,11 +22,9 @@ class footer extends Component {
                             <div class="col-md-4 col-sm-12">
                                 <h5 class="title mb-3">Öppettider</h5>
                                 <address>
-                                Måndag 09.00 - 15.00, Tisdag 13.00 - 17.00 
+                                Måndag till torsdag 09.00 - 17.00, 
                                 <br></br>
-                                Onsdag 09.00 - 17:00, Tors 13.00 - 17.00
-                                <br></br>
-                                Fredag 09.00 - 13:00
+                                Fredag 09.00 - 16:00
                                 </address>
                             </div>
                             <div class="col-md-4 col-sm-16">
@@ -38,6 +36,7 @@ class footer extends Component {
                                         Sägengatan 31 B
                                     <br></br>
                                         422 58 Hisings Backa
+                                    
                                 </adress>
                                 
 
