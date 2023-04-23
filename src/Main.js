@@ -22,10 +22,10 @@ class Main extends Component {
                     <nav className="navbar navbar-expand-lg navbar-light">
                             <div class="container-fluid">
                                 <a class="navbar-brand" href="/">
-                                <img src={Logo} className="image" class="d-inline-block align-text-top" width="250px" />
+                                <img src={Logo} className="image" class="d-inline-block align-text-top" width="225px" />
                                 <img src={StrLogo} className="image" class="d-inline-block align-text-top" width="60" height="40"/>
                                 </a>
-                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><a>MENY </a>
                                 <span class="navbar-toggler-icon"></span>
                                 </button>
                                 <div class="collapse navbar-collapse" id="navbarNav">
