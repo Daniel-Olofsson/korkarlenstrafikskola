@@ -13,11 +13,11 @@ class Home extends Component {
             <div class="container">
                 <div className="row"></div>
                     <div className="col-lg-12">
-                        {/*<img
-                        src={require('./components/images/pexel-easter.jpg')}
+                        <img
+                        src={require('./components/images/summer.jpeg')}
                         class="img-responsive center-block d-block mx-auto"
-                        alt="car"
-                        />*/}
+                        alt="summmer"
+                        />
                     </div> <br></br>
                 
             </div>
@@ -25,12 +25,21 @@ class Home extends Component {
             <p className="lh-base">
             Vi vill informera att i nuläget har vi gott om körlektioner med personbil mellan kl 8.30- 16.50. 
             </p>
-            <p>
-            Perfekt tillfälle att övningsköra innan sommarperioden drar igång.
+            <p className="lh-base">
+            Vi har också kurser som handledarkurs och riskettan.
             </p>
-            <p className="1h-base">Ring gärna oss på 0700-907210 eller maila dagar och tider önskemål till <a href="mailto: korkarlens.trafikskola@hotmail.com">korkarlens.trafikskola@hotmail.com</a>. 
-                Maila eller ring oss för frågor om exempelvis pris.</p>
+            <p>
+            Perfekt tillfälle att övningsköra nu när sommarperioden startar.
+            </p>
+            <p className="1h-base">Ring gärna oss på 0700-907210 eller maila dagar och tider önskemål till</p>
+            <a href="mailto: korkarlens.trafikskola@hotmail.com">korkarlens.trafikskola@hotmail.com</a>
+            <p>
+                Vi har också kurser som handledarkurs och riskettan.
+                
+            </p>
+            <p>Maila eller ring oss för frågor om exempelvis pris.</p>
             <p>Mvh personalen</p>
+
             <br></br>
             <hr></hr>
             
