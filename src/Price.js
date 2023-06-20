@@ -162,7 +162,7 @@ class Price extends Component {
         <table class="table table-hover">
         <thead>
             <tr>
-            <th scope="col">Lektioner, böcker och teori</th>
+            <th scope="col">Lektioner och teori</th>
             <th scope="col">Pris</th>
             </tr>
         </thead>
@@ -182,6 +182,43 @@ class Price extends Component {
             <tr>
             <th scope="row">Handledarkurs</th>
             <td colspan="2">250 kr</td>
+            </tr>
+        </tbody>
+        </table>
+        
+        <br></br>
+        <h1 className="padding-zero">Böcker</h1>
+        <table class="table table-hover">
+        <thead>
+            <tr>
+            <th scope="col">Rekomenderade böcker</th>
+            <th scope="col">Pris</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <th scope="row">Köra lastbil</th>
+            <td colspan="2">700 kr</td>
+            </tr>
+            <tr>
+            <th scope="row">Köra buss</th>
+            <td colSpan="2">700 kr</td>
+            </tr>
+            <tr>
+            <th scope="row">Trafikens grunder</th>
+            <td colspan="2">700 kr</td>
+            </tr>
+            <tr>
+            <th scope="row">Yrkesförarkompetens</th>
+            <td colspan="2">700 kr</td>
+            </tr>
+            <tr>
+            <th scope="row">Last säkerhetsboken (TYA)</th>
+            <td colspan="2">700 kr</td>
+            </tr>
+            <tr>
+            <th scope="row">Onlinetest</th>
+            <td colspan="2">700 kr</td>
             </tr>
         </tbody>
         </table>

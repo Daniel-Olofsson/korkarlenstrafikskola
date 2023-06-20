@@ -43,8 +43,10 @@ body {
     margin: 0;
 }
 h1{
-	padding-left: 20px;
-	font-family: 'Corben', cursive;
+	
+	font-family: 'Nobile', sans-serif;
+	font-weight: bolder;
+	
 }
 p {
 	font-family: 'Nobile', sans-serif;
@@ -52,7 +54,7 @@ p {
 	font-weight: 600;
 }
 h2 {
-	font-family: 'Corben', cursive;
+	font-family: 'Corben', sans-serif;
 	
 	
 }
