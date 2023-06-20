@@ -6,9 +6,7 @@ class Price extends Component {
     <div class="table-responsive">
         <h1 className="centerText">Priser</h1><br></br><br></br>
 
-        <h5>Helgkörning kostar 10% extra</h5>
-        <h5>Körkarlens trafikskola kan utbilda trafiklärare till buss lastbil och lastbil med släpp</h5>
-        <br></br>
+        
         <h1 className="padding-zero">Personbil B</h1>
         <table class="table table-hover">
         <thead>
@@ -20,19 +18,19 @@ class Price extends Component {
         <tbody>
             <tr>
             <th scope="row">40 minuter körlektion</th>
-            <td colspan="2">490 kr</td>
+            <td colspan="2">590 kr</td>
             </tr>
             <tr>
             <th scope="row">Körpaket 5 lektioner</th>
-            <td colspan="2">2375 kr</td>
+            <td colspan="2">2925 kr</td>
             </tr>
             <tr>
             <th scope="row">Körpaket 10 lektioner</th>
-            <td colspan="2">4650 kr</td>
+            <td colspan="2">5850 kr</td>
             </tr>
             <tr>
             <th scope="row">Intensivpaket 20 lektioner</th>
-            <td>8 950kr</td>
+            <td>11 400 kr</td>
             </tr>
             <tr>
             <th scope="row">Riskettan</th>
@@ -52,8 +50,13 @@ class Price extends Component {
             </tr>
         </tbody>
         </table>
+        
         <br></br>
         <h1 className="padding-zero">Tung lastbil C/C1</h1>
+
+        <h5>Helgkörning kostar 10% extra</h5>
+        <h5>Körkarlens trafikskola kan utbilda trafiklärare till buss, lastbil och lastbil med släpp</h5>
+        <br></br>
         <table class="table table-hover">
         <thead>
             <tr>
@@ -195,7 +198,7 @@ class Price extends Component {
         <tbody>
             <tr>
             <th scope="row">Personbil B</th>
-            <td colspan="2">800 kr</td>
+            <td colspan="2">1200 kr</td>
             </tr>
             <tr>
             <th scope="row">Tung lastbil C uppkörning</th>
@@ -230,7 +233,7 @@ class Price extends Component {
         <thead>
             <h4>Gäller C,D och CE</h4>
             <tr>
-            <th scope="col">Vid uppkörning och funk.</th>
+            <th scope="col">Paket.</th>
             <th scope="col">Pris</th>
             <th scope="col">Antal lektioner</th>
             <th scope="col">Funk</th>
