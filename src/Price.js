@@ -55,7 +55,7 @@ class Price extends Component {
         <h1 className="padding-zero">Tung lastbil C/C1</h1>
 
         <h5>Helgkörning kostar 10% extra</h5>
-        <h5>Körkarlens trafikskola kan utbilda trafiklärare till buss, lastbil och lastbil med släpp</h5>
+        <h5>Körkarlens trafikskola kan utbilda trafiklärare till buss, lastbil och lastbil med släpp.</h5>
         <br></br>
         <table class="table table-hover">
         <thead>
@@ -78,13 +78,13 @@ class Price extends Component {
             <tr>
             <th scope="row">Körpaket 10 lektioner</th>
             <td colspan="">8500 kr</td>
-            <td colspan="">✓</td>
+            <td className="green" colspan="">✓</td>
             </tr>
             <tr>
             <th scope="row">Intensivpaket 15 lektioner</th>
             <td colspan="">15 000 kr</td>
-            <td colspan="">✓</td>
-            <td colspan="">✓</td>
+            <td className="green" colspan="">✓</td>
+            <td className="green" colspan="">✓</td>
             </tr>
         </tbody>
         </table>
@@ -111,14 +111,14 @@ class Price extends Component {
             <tr>
             <th scope="row">Körpaket 10 lektioner</th>
             <td colspan="">9500 kr</td>
-            <td colspan="">✓</td>
+            <td className="green" colspan="">✓</td>
             
             </tr>
             <tr>
             <th scope="row">Intensivpaket 15 lektioner</th>
             <td colspan="">16500 kr</td>
-            <td colspan="">✓</td>
-            <td colspan="">✓</td>
+            <td className="green" colspan="">✓</td>
+            <td className="green" colspan="">✓</td>
             
             
             </tr>
@@ -147,13 +147,13 @@ class Price extends Component {
             <tr>
             <th scope="row">Körpaket 10 lektioner</th>
             <td colspan="">8500 kr</td>
-            <td colspan="">✓</td>
+            <td className="green" colspan="">✓</td>
             </tr>
             <tr>
             <th scope="row">Intensivpaket 15 lektioner</th>
             <td colspan="">15 000 kr</td>
-            <td colspan="">✓</td>
-            <td colspan="">✓</td>
+            <td className="green" colspan="">✓</td>
+            <td className="green" colspan="">✓</td>
             </tr>
         </tbody>
         </table>
@@ -228,7 +228,12 @@ class Price extends Component {
         </table>
         <br></br>
         
-        <h1 className="padding-zero">Guld, Silver, Brons-paketen</h1>
+        
+        <h1 className="padding-zero">
+        <span class="gold">Guld,</span>
+        <span class="silver">Silver,</span>
+        <span class="bronze">Brons-paketen</span>
+        </h1>
         <table class="table table-hover">
         <thead>
             <h4>Gäller C,D och CE</h4>
@@ -242,46 +247,46 @@ class Price extends Component {
         </thead>
         <tbody>
             <tr>
-            <th scope="row">BRONS C och D</th>
+            <th className="bronze" scope="row">BRONS C och D</th>
             <td colspan="">16 000 kr</td>
             <td colspan="">10 st</td>
-            <td colspan="">✓</td>
-            <td colspan="">✓</td>
+            <td className="green" colspan="">✓</td>
+            <td className="green" colspan="">✓</td>
             </tr>
             <tr>
-            <th scope="row">SILVER C och D</th>
+            <th className="silver" scope="row">SILVER C och D</th>
             <td colspan="">24 000 kr</td>
             <td colspan="">20 st</td>
-            <td colspan="">✓</td>
-            <td colspan="">✓</td>
+            <td className="green" colspan="">✓</td>
+            <td className="green" colspan="">✓</td>
             </tr>
             <tr>
-            <th scope="row">GULD C och D</th>
+            <th className="gold" scope="row">GULD C och D</th>
             <td colspan="">32 000 kr</td>
             <td colspan="">30 st</td>
-            <td colspan="">✓</td>
-            <td colspan="">✓</td>
+            <td className="green" colspan="">✓</td>
+            <td className="green" colspan="">✓</td>
             </tr>
             <tr>
-            <th scope="row">BRONS CE</th>
+            <th className="bronze" scope="row">BRONS CE</th>
             <td colspan="">17 000 kr</td>
             <td colspan="">10 st</td>
-            <td colspan="">✓</td>
-            <td colspan="">✓</td>
+            <td className="green" colspan="">✓</td>
+            <td className="green" colspan="">✓</td>
             </tr>
             <tr>
-            <th scope="row">SILVER CE</th>
+            <th className="silver" scope="row">SILVER CE</th>
             <td colspan="">26 000 kr</td>
             <td colspan="">20 st</td>
-            <td colspan="">✓</td>
-            <td colspan="">✓</td>
+            <td className="green" colspan="">✓</td>
+            <td className="green" colspan="">✓</td>
             </tr>
             <tr>
-            <th scope="row">GULD CE</th>
+            <th className="gold" scope="row">GULD CE</th>
             <td colspan="">35 000 kr</td>
             <td colspan="">30 st</td>
-            <td colspan="">✓</td>
-            <td colspan="">✓</td>
+            <td className="green" colspan="">✓</td>
+            <td className="green" colspan="">✓</td>
             </tr>
             
         </tbody>

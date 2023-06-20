@@ -114,3 +114,15 @@ nav {
 	padding: 0;
 }
 
+.bronze{
+	color: 	rgb(205, 127, 50)
+}
+.silver{
+	color: rgb(192, 192, 192);
+}
+.gold{
+	color: rgb(255, 215, 0);
+}
+.green{
+	color: green;
+}

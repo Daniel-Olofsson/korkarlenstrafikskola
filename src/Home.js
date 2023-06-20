@@ -37,6 +37,7 @@ class Home extends Component {
                 Vi har också kurser som handledarkurs och riskettan.
                 
             </p>
+            
             <p>Maila eller ring oss för frågor om exempelvis pris.</p>
             <p>Mvh personalen</p>
 
