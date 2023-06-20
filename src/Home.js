@@ -14,7 +14,7 @@ class Home extends Component {
                 <div className="row"></div>
                     <div className="col-lg-12">
                         <img
-                        src={require('./components/images/summer.jpeg')}
+                        src={require('./components/images/summer.jpg')}
                         class="img-responsive center-block d-block mx-auto"
                         alt="summmer"
                         />
