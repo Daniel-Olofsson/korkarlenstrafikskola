@@ -78,7 +78,7 @@ class Price extends Component {
             <tr>
             <th scope="row">Körpaket 10 lektioner</th>
             <td colspan="">8500 kr</td>
-            <td className="green" colspan="">✓</td>
+            
             </tr>
             <tr>
             <th scope="row">Intensivpaket 15 lektioner</th>
@@ -111,7 +111,7 @@ class Price extends Component {
             <tr>
             <th scope="row">Körpaket 10 lektioner</th>
             <td colspan="">9500 kr</td>
-            <td className="green" colspan="">✓</td>
+            
             
             </tr>
             <tr>
@@ -147,12 +147,51 @@ class Price extends Component {
             <tr>
             <th scope="row">Körpaket 10 lektioner</th>
             <td colspan="">8500 kr</td>
-            <td className="green" colspan="">✓</td>
+            
             </tr>
             <tr>
             <th scope="row">Intensivpaket 15 lektioner</th>
             <td colspan="">15 000 kr</td>
             <td className="green" colspan="">✓</td>
+            <td className="green" colspan="">✓</td>
+            </tr>
+        </tbody>
+        </table>
+        <br></br>
+        <h4 className="padding-zero">Yrkeskompetensbevis</h4>
+        
+        <table class="table table-hover">
+        <thead>
+            <tr>
+            <th scope="col">Timmar</th>
+            <th scope="col">Pris</th>
+            <th scope="col">Buss</th>
+            <th scope="col">Lastbil</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <th scope="row">140 timmar</th>
+            <td colspan="">35 000 kr</td>
+            <td className="green" colspan="">✓</td>
+            <td className="green" colspan="">✓</td>
+            </tr>
+            <tr>
+            <th scope="row">280 timmar</th>
+            <td colSpan="">60 000 kr</td>
+            <td className="green" colspan="">✓</td>
+            <td className="green" colspan="">✓</td>
+            </tr>
+            <tr>
+            <th scope="row">Fortbildning 35 timmar</th>
+            <td colspan="">12 000 kr</td>
+            <td className="green" colspan="">✓</td>
+            <td className="green" colspan="">✓</td>
+            
+            </tr>
+            <tr>
+            <th scope="row">Komplettering 35 h</th>
+            <td colspan="2">12 000 kr</td>
             <td className="green" colspan="">✓</td>
             </tr>
         </tbody>
@@ -214,7 +253,7 @@ class Price extends Component {
             </tr>
             <tr>
             <th scope="row">Last säkerhetsboken (TYA)</th>
-            <td colspan="2">700 kr</td>
+            <td colspan="2">100 kr</td>
             </tr>
             <tr>
             <th scope="row">Onlinetest</th>
