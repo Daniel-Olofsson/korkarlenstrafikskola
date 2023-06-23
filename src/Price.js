@@ -5,7 +5,7 @@ class Price extends Component {
     return (
     <div class="table-responsive">
         <h1 className="centerText">Priser</h1><br></br><br></br>
-
+        <h5 className="centerText">Helgkörning kostar 15% extra per lektion och gäller B, B96, BE, C, C1, D, CE</h5>
         
         <h1 className="padding-zero">Personbil B</h1>
         <table class="table table-hover">
@@ -54,7 +54,7 @@ class Price extends Component {
         <br></br>
         <h1 className="padding-zero">Tung lastbil C/C1</h1>
 
-        <h5>Helgkörning kostar 10% extra</h5>
+        
         <h5>Körkarlens trafikskola kan utbilda trafiklärare till buss, lastbil och lastbil med släpp.</h5>
         <br></br>
         <table class="table table-hover">
