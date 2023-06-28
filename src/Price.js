@@ -4,9 +4,23 @@ class Price extends Component {
     render() {
     return (
     <div class="table-responsive">
-        <h1 className="centerText">Priser</h1><br></br><br></br>
-        <h5 className="centerText">Helgkörning kostar 15% extra per lektion och gäller B, B96, BE, C, C1, D, CE</h5>
-        
+        <div class="row">
+        <h1 class="card-title text-center">Priser</h1>
+        <div class="col-md-6 offset-md-3">
+            <div class="card">
+                <div class="card-body">
+                    
+                    <h3 class="card-subtitle text-center">Information och regler</h3>
+                    <hr></hr>
+                    <h5 class="card-text text-center">Helgkörning kostar 15% extra per lektion och gäller B, B96, BE, C, C1, D, CE</h5>
+                    <h5 class="card-text text-center">Körkarlens trafikskola kan utbilda trafiklärare till buss, lastbil och lastbil med släp.</h5>
+                    <h5 class="card-text text-center">Köpta lektioner måste utnyttjas inom 6 månader</h5>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <br></br>
         <h1 className="padding-zero">Personbil B</h1>
         <table class="table table-hover">
         <thead>
@@ -40,13 +54,29 @@ class Price extends Component {
             <th scope="row">Risktvåan</th>
             <td>2000 kr</td>
             </tr>
+            
+        </tbody>
+        </table>
+
+        <h3 className="padding-zero">Personbil B släp</h3>
+        <table class="table table-hover">
+        <thead>
+            <tr>
+            <th scope="col">Lektioner och körpaket</th>
+            <th scope="col">Pris</th>
+            <th scope="col">Lån av bil och släp</th>
+            </tr>
+        </thead>
+        <tbody>
             <tr>
             <th scope="row">B96 Tre lektioner</th>
-            <td colspan="2">2900 kr</td>
+            <td colspan="">4000 kr</td>
+            <td className="green" colspan="">✓</td>
             </tr>
             <tr>
             <th scope="row">BE Tre lektioner</th>
-            <td colspan="2">2900 kr</td>
+            <td colspan="">4000 kr</td>
+            <td className="green" colspan="">✓</td>
             </tr>
         </tbody>
         </table>
@@ -55,7 +85,8 @@ class Price extends Component {
         <h1 className="padding-zero">Tung lastbil C/C1</h1>
 
         
-        <h5>Körkarlens trafikskola kan utbilda trafiklärare till buss, lastbil och lastbil med släpp.</h5>
+        
+        <h5>Endast dubbla lektioner kan bokas för C/C1.</h5>
         <br></br>
         <table class="table table-hover">
         <thead>
@@ -76,6 +107,10 @@ class Price extends Component {
             <td>4300 kr</td>
             </tr>
             <tr>
+            <th scope="row">Undervisning funk 10 lektioner</th>
+            <td colspan="">7000 kr</td>
+            </tr>
+            <tr>
             <th scope="row">Körpaket 10 lektioner</th>
             <td colspan="">8500 kr</td>
             
@@ -90,6 +125,7 @@ class Price extends Component {
         </table>
         <br></br>
         <h1 className="padding-zero">Tung lastbil CE</h1>
+        <h5>Endast trippla lektioner kan bokas för CE.</h5>
         <table class="table table-hover">
         <thead>
             <tr>
@@ -109,6 +145,10 @@ class Price extends Component {
             <td>4800 kr</td>
             </tr>
             <tr>
+            <th scope="row">Undervisning funk 10 lektioner</th>
+            <td colspan="">7000 kr</td>
+            </tr>
+            <tr>
             <th scope="row">Körpaket 10 lektioner</th>
             <td colspan="">9500 kr</td>
             
@@ -126,6 +166,7 @@ class Price extends Component {
         </table>
         <br></br>
         <h1 className="padding-zero">Buss D</h1>
+        <h5>Endast dubbla lektioner kan bokas för D.</h5>
         <table class="table table-hover">
         <thead>
             <tr>
@@ -143,6 +184,10 @@ class Price extends Component {
             <tr>
             <th scope="row">Körpaket 5 lektioner</th>
             <td colSpan="2">4300 kr</td>
+            </tr>
+            <tr>
+            <th scope="row">Undervisning funk 10 lektioner</th>
+            <td colspan="">7000 kr</td>
             </tr>
             <tr>
             <th scope="row">Körpaket 10 lektioner</th>
@@ -275,6 +320,10 @@ class Price extends Component {
             <tr>
             <th scope="row">Personbil B</th>
             <td colspan="2">1200 kr</td>
+            </tr>
+            <tr>
+            <th scope="row">BE/B96</th>
+            <td colspan="2">1500 kr</td>
             </tr>
             <tr>
             <th scope="row">Tung lastbil C uppkörning</th>
