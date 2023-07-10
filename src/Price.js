@@ -265,7 +265,7 @@ class Price extends Component {
             </tr>
             <tr>
             <th scope="row">Handledarkurs</th>
-            <td colspan="2">250 kr</td>
+            <td colspan="2">300 kr</td>
             </tr>
         </tbody>
         </table>

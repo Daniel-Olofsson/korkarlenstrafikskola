@@ -7,18 +7,18 @@ class Home extends Component {
     return (
       <div>
         <div className="home-text">
-            <h1 className="centerText">Information</h1>
-            <br></br>
+            <h1 className="centerText mb-1">Information</h1>
+            
 
             <div class="container">
                 <div className="row"></div>
                     <div className="col-lg-12">
                         <img
                         src={require('./components/images/summer.jpg')}
-                        class="img-responsive center-block d-block mx-auto"
+                        class="img-responsive center-block d-block mx-auto mb-1"
                         alt="summmer"
                         />
-                    </div> <br></br>
+                    </div> 
                 
             </div>
             
