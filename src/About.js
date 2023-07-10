@@ -136,16 +136,16 @@ class About extends Component {
         </div>
         
         <h2 className="center-h">Har du frågor?</h2>
-    <div className="center-h">
-        <div className="container-about">
-            {/*<img src={require('./components/images/car-images/IMG_FRAMSIDA.JPG')} className="rounded-circle mx-auto d-block" alt="front door"/>*/}
-            <p className="center-h">Besök oss på Sägengatan 31, eller ring gärna oss på 0700-90 72 10 eller <a href="mailto:korkarlens.trafikskola@hotmail.com">mail</a></p>
+        <div className="center-h">
+            <div className="container-about">
+                {/*<img src={require('./components/images/car-images/IMG_FRAMSIDA.JPG')} className="rounded-circle mx-auto d-block" alt="front door"/>*/}
+                <p className="center-h">Besök oss på Sägengatan 31, eller ring gärna oss på 0700-90 72 10 eller <a href="mailto:korkarlens.trafikskola@hotmail.com">mail</a></p>
+            </div>
+            <section class="map">
+                <iframe className="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2129.271358840999!2d11.975965512844613!3d57.7458162366426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464ff4e84fc8324d%3A0x9bdc1e9fe20336b8!2sK%C3%B6rkarlens%20trafikskola!5e0!3m2!1ssv!2sse!4v1682273062321!5m2!1ssv!2sse" ></iframe>
+            </section>
+            
         </div>
-        <section class="map">
-            <iframe className="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2129.271358840999!2d11.975965512844613!3d57.7458162366426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464ff4e84fc8324d%3A0x9bdc1e9fe20336b8!2sK%C3%B6rkarlens%20trafikskola!5e0!3m2!1ssv!2sse!4v1682273062321!5m2!1ssv!2sse" ></iframe>
-        </section>
-        
-    </div>
 
 
 </div>
