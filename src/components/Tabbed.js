@@ -18,11 +18,11 @@ function DrivingLicenses() {
   return (
     <div>
       <ul className="tabs">
-        <li className={activeTab === 'class-a' ? 'active' : ''} onClick={() => handleTabClick('class-a')}><img src={VehicleCar}/></li>
-        <li className={activeTab === 'class-b' ? 'active' : ''} onClick={() => handleTabClick('class-b')}><img src={VehicleCarTrailer}/></li>
-        <li className={activeTab === 'class-c' ? 'active' : ''} onClick={() => handleTabClick('class-c')}><img src={VehicleTruck}/></li>
-        <li className={activeTab === 'class-e' ? 'active' : ''} onClick={() => handleTabClick('class-e')}><img src={VehicleTruckCE}/></li>
-        <li className={activeTab === 'class-d' ? 'active' : ''} onClick={() => handleTabClick('class-d')}><img src={VehicleBuss}/></li>
+        <li className={activeTab === 'class-a' ? 'active' : ''} onClick={() => handleTabClick('class-a')}><img src={VehicleCar} className='img-active' alt='car'/></li>
+        <li className={activeTab === 'class-b' ? 'active' : ''} onClick={() => handleTabClick('class-b')}><img src={VehicleCarTrailer} className='img-active' alt='trailer'/></li>
+        <li className={activeTab === 'class-c' ? 'active' : ''} onClick={() => handleTabClick('class-c')}><img src={VehicleTruck} className='img-active' alt='truck'/></li>
+        <li className={activeTab === 'class-e' ? 'active' : ''} onClick={() => handleTabClick('class-e')}><img src={VehicleTruckCE} className='img-active' alt='truck CE'/></li>
+        <li className={activeTab === 'class-d' ? 'active' : ''} onClick={() => handleTabClick('class-d')}><img src={VehicleBuss} className='img-active' alt='buss'/></li>
         
       </ul>
       {activeTab === 'class-a' && (

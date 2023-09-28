@@ -6,37 +6,53 @@ class Home extends Component {
     render() {
     return (
       <div>
-        <div className="home-text">
-            <h1 className="centerText mb-1">Information</h1>
-            <div class="container">
-                <div className="row"></div>
-                    <div className="col-lg-12">
-                        <img
-                        src={require('./components/images/summer.jpg')}
-                        class="img-responsive center-block d-block mx-auto mb-1"
-                        alt="summmer"
-                        />
-                    </div> 
+        <div className="image-wrapper">
+            <h1 className="company-title">KÖRKARLENS TRAFIKSKOLA</h1>
+            <img
+            src={require('./components/images/autumndrive.jpg')}
+            className="image-banner"
+            alt="autumndrive"
+            />
+        </div>
+        
+        <div className="home-content">
+
+            
+            
+            
+            
+            <div className="special-offers">
+                    <h4 className="offer-heading">Hösterbjudande</h4>
+                    <ul className="offer-list">
+                        <li className="offer-item">5 körlektioner för 2350 kr</li>
+                        <li className="offer-item">10 lektioner för 4500 kr</li>
+                        <li className="offer-item">20 körlektioner för 8950 kr</li>
+                        <li className="offer-item">Prova på lektioner/nivå kontroll: 2 st körlektioner för 1000 kr</li>
+                    </ul>
+                <p className="offer-validity">Gäller från 1 september till 1 november</p>
             </div>
-            <div className="m-1">
+
+            <div className="home-text">
+            <h1 className="center-h">Information</h1>
+                
+                
                 <p className="lh-base">
                 Vi vill informera att i nuläget har vi gott om körlektioner med personbil mellan kl 8.30- 16.50. 
                 </p>
                 <p className="lh-base">
-                Vi har också kurser som handledarkurs och riskettan.
+                Vi har också kurser som handledarkurs och riskettan. <li className="red">Nästa handledarkurs är torsdag 12/10 och riskettan är 26/10 kl 17.00.</li>
                 </p>
-                <p>
-                Perfekt tillfälle att övningsköra nu när sommarperioden startar.
+                <p className="lh-base">
+                    Perfekt tillfälle att övningsköra nu när höstperioden startar.
                 </p>
+                
                 <p className="1h-base">Ring gärna oss på 0700-907210 eller maila dagar och tider önskemål till</p>
                 <a href="mailto: korkarlens.trafikskola@hotmail.com">korkarlens.trafikskola@hotmail.com</a>
-                <p>
-                    Vi har också kurser som handledarkurs och riskettan.
-                    
-                </p>
+                
                 
                 <p>Maila eller ring oss för frågor om exempelvis pris.</p>
                 <p className="mb-1">Mvh personalen</p>
+                
             </div>
            
             <hr></hr>
@@ -51,9 +67,11 @@ class Home extends Component {
                 </ul>
             </div>
             <hr></hr>
-            <div>
-                <h2>Våra utbildningar</h2>
-                <Tabbed/>
+            <div className="container">
+           
+            <h2 className="center-h">Våra utbildningar</h2>
+            <Tabbed/>
+                
             </div>
         </div>
     </div>

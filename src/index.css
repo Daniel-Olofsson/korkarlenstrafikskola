@@ -4,10 +4,6 @@ body {
 	animation: gradient 15s ease infinite;
 	height: 100vh;
 	display: block;
-	
-	
-	
-	
 }
 
 @keyframes gradient {
@@ -24,19 +20,14 @@ body {
 .content {
 	border-radius: 39px;
 	box-shadow: 0 4px 8px 0 rgb(4, 4, 4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	
 	padding-bottom: 25px;
-	padding-top: 25px;
-	padding-left: 15px;
-	margin-bottom: 15px;
 	width: 90%;
 	max-width: 1600px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 25px;
 	min-height: 100vh;
-
-    
+	
 }
 .content h2 {
     padding: 0;
@@ -106,6 +97,7 @@ nav {
 }
 .centerText{
 	text-align: center;
+	
 }
 .margin-auto{
 	padding-right: 15px;
@@ -115,7 +107,9 @@ nav {
 .padding-zero{
 	padding: 0;
 }
-
+.red{
+	color: red;
+}
 .bronze{
 	color: 	rgb(205, 127, 50)
 }
