@@ -22,7 +22,7 @@ class Home extends Component {
             
             
             <div className="special-offers">
-                    <h4 className="offer-heading">Hösterbjudande</h4>
+                    <h4 className="offer-heading">Hösterbjudande B-Körkort</h4>
                     <ul className="offer-list">
                         <li className="offer-item">5 körlektioner för 2350 kr</li>
                         <li className="offer-item">10 lektioner för 4500 kr</li>
@@ -63,7 +63,8 @@ class Home extends Component {
                     <li className="center-li">✓ Alltid mycket låga och konkurrenskraftiga priser</li><br></br>
                     <li className="center-li">✓ Hög kvalitet i undervisningen</li><br></br>
                     <li className="center-li">✓ En trevlig och avspänd atmosfär på trafikskolan, vilket skapar en bra miljö för en god inlärning</li><br></br>
-                    <li className="center-li">✓ Vi erbjuder även utbildning för Yrkesförarkompetens (YKB)</li><br></br><br></br>
+                    <li className="center-li">✓ Vi erbjuder även utbildning för Yrkesförarkompetens (YKB)</li>
+                    <li className="center-li">✓ Vi har lärare som pratar engelska och arabiska</li>
                 </ul>
             </div>
             <hr></hr>

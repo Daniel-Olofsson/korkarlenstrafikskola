@@ -4,6 +4,9 @@
 *::after {
 	box-sizing: border-box;
 }
+*{
+	font-family: 'Mulish', sans-serif;
+}
 /* Styling for the list container */
 /* Styling for the list container */
 .offer-heading {
@@ -87,18 +90,21 @@
 	border-radius: 25px;
 	height: 600px;
 	max-height: 500px; /* Adjust the height to your desired value */
-	
-	
-	
+
   }
+ 
   .image-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 	margin: 10px;
-	padding:10px
+	padding:10px;
+	position: relative;
+	
   }
   .company-title{
-	margin-top: 33vh;
-	margin-left: 5vh;
-	margin-right: 15vh;
+	padding-top: 200px;
 	align-items: center;
 	justify-content: center;
 	position: absolute;
@@ -107,11 +113,25 @@
 	background-clip: text;
 	color: transparent;
 	-webkit-text-fill-color: #f5f5f5; /* Adjust the text fill color for better visibility */
-	font-size: 36px;
+	font-size: 33px;
 	font-weight: bold;
 	
 	
+	
+	
+	
 }
+@media (max-width: 480px) {
+	.image-banner {
+	  height: 300px; /* Adjust the height for phones */
+	}
+	/* Style adjustments for even smaller screens (phones) */
+	.company-title {
+		padding-top: 100px;
+		font-size: 14px; /* Further reduce font size for phones */
+		padding-left: 15px;
+	}
+  }
 @keyframes shine {
 	0% {
 	  -webkit-text-fill-color: #f5f5f5;
@@ -138,15 +158,20 @@
 	list-style: none;
 	padding: 0;
 	margin: 0;
+	padding-bottom: 20px;
   }
-  
+  .center-li{
+	
+  }
   .about-li {
+	
 	display: flex;
 	align-items: center;
 	margin-left:33vh;
 	margin: 10px 0;
   }
   .home-content{
+	padding-left: 20px;
 	padding-bottom:0;
 	margin-bottom:0;
 	margin-left:5vh;
