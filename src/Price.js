@@ -9,7 +9,6 @@ class Price extends Component {
         <div class="col-md-6 offset-md-3">
             <div class="card">
                 <div class="card-body">
-                    
                     <h3 class="card-subtitle text-center">Information och regler</h3>
                     <hr></hr>
                     <h5 class="card-text text-center">Helgkörning kostar 15% extra per lektion och gäller B, B96, BE, C, C1, D, CE</h5>
