@@ -21,7 +21,7 @@ class Home extends Component {
             
             
             
-            <div className="special-offers">
+            {/*<div className="special-offers">
                     <h4 className="offer-heading">Hösterbjudande B-Körkort</h4>
                     <ul className="offer-list">
                         <li className="offer-item">5 körlektioner för 2350 kr</li>
@@ -30,7 +30,7 @@ class Home extends Component {
                         <li className="offer-item">Prova på lektioner/nivå kontroll: 2 st körlektioner för 1000 kr</li>
                     </ul>
                 <p className="offer-validity">Gäller från 1 september till 1 november</p>
-            </div>
+            </div>*/}
 
             <div className="home-text">
             <h1 className="center-h">Information</h1>
@@ -40,7 +40,7 @@ class Home extends Component {
                 Vi vill informera att i nuläget har vi gott om körlektioner med personbil mellan kl 8.30- 16.50. 
                 </p>
                 <p className="lh-base">
-                Vi har också kurser som handledarkurs och riskettan. <li className="red">Nästa handledarkurs är torsdag 12/10 och riskettan är 26/10 kl 17.00.</li>
+                Vi har också kurser som handledarkurs och riskettan. <li className="red">Nästa handledarkurs är torsdag 11/11 kl 17.00.</li>
                 </p>
                 <p className="lh-base">
                     Perfekt tillfälle att övningsköra nu när höstperioden startar.
