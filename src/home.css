@@ -7,6 +7,14 @@
 *{
 	font-family: 'Mulish', sans-serif;
 }
+body{
+	padding:0;
+	margin:0;
+}
+h1{
+	margin-left: 10px;
+}
+h5{margin-left: 10px;}
 /* Styling for the list container */
 /* Styling for the list container */
 .offer-heading {
@@ -19,7 +27,6 @@
   }
   
 .special-offers {
-	
 	border: 5px solid;
 	border-radius: 25px;
 	max-width: 100vh;
@@ -32,17 +39,11 @@
 	text-align: center;
 	background-color: #f2f2f2; /* Background color for the card */
 	padding: 10px; /* Adjust padding as needed for spacing */
-	
 	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
 	margin-bottom: 10px; /* Spacing between cards */
-	
-	
-	
-	
 	box-sizing: border-box;
   }
   .offer-list {
-	
 	list-style-type: none;
 	padding: 0;
 	display: grid;
@@ -72,9 +73,12 @@
 
 .home-text {
 	padding:0;
-	font-size: 12px;
+	font-size: 14px;
 	
 }
+.home-text p {
+	margin-bottom: 0px; /* Adjust the value as needed */
+  }
 .max-w{
 	max-width:80%;
 	padding:0;
@@ -88,7 +92,7 @@
 	max-width: 100%;
   	
 	border-radius: 25px;
-	height: 600px;
+	height: 100%;
 	max-height: 500px; /* Adjust the height to your desired value */
 
   }
@@ -101,25 +105,18 @@
 	margin: 10px;
 	padding:10px;
 	position: relative;
-	
+  }
+
+  .carousel-wrapper{
+	margin-top: 20px;
+	border-radius: 25px;
   }
   .company-title{
-	padding-top: 200px;
+	padding-top: 5%;
 	align-items: center;
 	justify-content: center;
-	position: absolute;
-	background: linear-gradient(to right, #ffffff, #f5f5f5, #e0e0e0, #cccccc);
-	-webkit-background-clip: text;
-	background-clip: text;
-	color: transparent;
-	-webkit-text-fill-color: #f5f5f5; /* Adjust the text fill color for better visibility */
-	font-size: 33px;
-	font-weight: bold;
-	
-	
-	
-	
-	
+	text-align: center;
+	font-weight: 600;
 }
 @media (max-width: 480px) {
 	.image-banner {
@@ -127,8 +124,8 @@
 	}
 	/* Style adjustments for even smaller screens (phones) */
 	.company-title {
-		padding-top: 100px;
-		font-size: 14px; /* Further reduce font size for phones */
+		padding-top: 10%;
+		font-size: 26px; /* Further reduce font size for phones */
 		padding-left: 15px;
 	}
   }
@@ -160,9 +157,7 @@
 	margin: 0;
 	padding-bottom: 20px;
   }
-  .center-li{
-	
-  }
+
   .about-li {
 	
 	display: flex;

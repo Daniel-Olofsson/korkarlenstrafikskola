@@ -1,0 +1,84 @@
+/* Add your styles here */
+/*
+.carousel {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin: 20px 0;
+  }
+  
+  .carousel_button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    color: #333;
+  }
+  
+  .carousel_button-left {
+    left: 10px;
+  }
+  
+  .carousel_button-right {
+    right: 10px;
+  }
+  
+  .carousel_track-container {
+    overflow: hidden;
+  }
+  
+  .carousel_track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .carousel_slide {
+    flex: 0 0 100%;
+    list-style: none;
+  }
+  
+  .carousel_image {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .carousel_nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .carousel_indicator {
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    border-radius: 50%;
+    background-color: #bbb;
+    cursor: pointer;
+    outline: none;
+    border: none;
+  }
+  
+  .current-slide {
+    background-color: #333;
+  }
+  */
+
+  .carousel .thumb img {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.carousel .slide img {
+    max-height: 100%;  /* change this to whatever you want */
+    width: auto;
+}
+.carousel_track {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}

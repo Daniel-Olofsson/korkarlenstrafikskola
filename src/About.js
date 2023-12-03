@@ -6,8 +6,9 @@ class About extends Component {
     render() {
     return (
 <div>
-    <h1 className="centerText">Om oss</h1><br></br>
+    <h1 className="company-title">Om oss</h1><br></br>
     <h3 className="bold-header">Vilka är vi?</h3>
+    <div className="about_start_text">
         <p className="">Körkarlens Trafikskola är en enskild firma vars verksamhet är trafikskola med körlektioner för personbil,
             lastbil,lastbil med släp,bil med släp och buss och teori.
              YKB-utbildningar.</p>
@@ -20,7 +21,9 @@ class About extends Component {
         <hr></hr>
         <h3 className="bold-header">Våra fordon</h3>
         <p className="">Vi använder oss av ett flertal nya Volkswagen för personbil och har diverse tyngre fordon för övriga utbildningar.</p>
-        <br></br>
+    </div>
+        
+        
         
         
         <div className="margin-auto">
@@ -32,12 +35,14 @@ class About extends Component {
                     src={require('./components/images/car-images/IMG_6901.JPG')}
                     class="w-100 shadow-1-strong rounded mb-2"
                     alt="car"
+                    style={{ marginLeft: '10px' }}
                     />
 
                     <img
                     src={require('./components/images/car-images/IMG_FORDON1.jpg')}
                     class="w-100 shadow-1-strong rounded mb-2"
                     alt="car"
+                    style={{ marginLeft: '10px' }}
                     />
                 </div>
                 <div class="col-lg-3">
@@ -45,12 +50,14 @@ class About extends Component {
                     src={require('./components/images/car-images/Vit automat 2.jpg')}
                     class="w-100 shadow-1-strong rounded mb-2"
                     alt="car"
+                    style={{ marginLeft: '10px' }}
                     />
 
                     <img
                     src={require('./components/images/car-images/IMG_6897.JPG')}
                     class="w-100 shadow-1-strong rounded mb-2"
                     alt="car"
+                    style={{ marginLeft: '10px' }}
                     />
                 </div>
                 <div class="col-lg-3 mb-4 mb-lg-0">
@@ -58,12 +65,14 @@ class About extends Component {
                     src={require('./components/images/car-images/IMG_6895.JPG')}
                     class="w-100 shadow-1-strong rounded mb-4"
                     alt="car"
+                    style={{ marginLeft: '10px' }}
                     />
 
                     <img
                     src={require('./components/images/car-images/IMG_6892.JPG')}
                     class="w-100 shadow-1-strong rounded mb-4"
                     alt="car"
+                    style={{ marginLeft: '10px' }}
                     />
                 </div>
                 <div class="col-lg-3 mb-4 mb-lg-0">
@@ -71,12 +80,14 @@ class About extends Component {
                     src={require('./components/images/car-images/IMG_6881.JPG')}
                     class="w-100 shadow-1-strong rounded mb-4"
                     alt="car"
+                    style={{ marginLeft: '10px' }}
                     />
 
                     <img
                     src={require('./components/images/car-images/IMG_6888.JPG')}
                     class="w-100 shadow-1-strong rounded mb-4"
                     alt="car"
+                    style={{ marginLeft: '10px' }}
                     />
                 </div>
                 <div class="col-lg-3 mb-4 mb-lg-0">
@@ -84,12 +95,14 @@ class About extends Component {
                     src={require('./components/images/car-images/IMG_6891.JPG')}
                     class="w-100 shadow-1-strong rounded mb-4"
                     alt="car"
+                    style={{ marginLeft: '10px' }}
                     />
 
                     <img
                     src={require('./components/images/car-images/IMG_6890.JPG')}
                     class="w-100 shadow-1-strong rounded mb-4"
                     alt="car"
+                    style={{ marginLeft: '10px' }} // Add left margin here
                     />
                 </div>
                 <div class="col-lg-3 mb-4 mb-lg-0">
@@ -97,12 +110,14 @@ class About extends Component {
                     src={require('./components/images/car-images/IMG_FORDON2.JPG')}
                     class="w-100 shadow-1-strong rounded mb-4"
                     alt="car"
+                    style={{ marginLeft: '10px' }}
                     />
 
                     <img
                     src={require('./components/images/car-images/IMG_6916.JPG')}
                     class="w-100 shadow-1-strong rounded mb-4"
                     alt="car"
+                    style={{ marginLeft: '10px' }}
                     />
                 </div>
                 <div class="col-lg-3">
@@ -110,12 +125,14 @@ class About extends Component {
                     src={require('./components/images/car-images/IMG_6909.JPG')}
                     class="w-100 shadow-1-strong rounded mb-4"
                     alt="car"
+                    style={{ marginLeft: '10px' }}
                     />
 
                     <img
                     src={require('./components/images/car-images/IMG_6910.JPG')}
                     class="w-100 shadow-1-strong rounded mb-4"
                     alt="car"
+                    style={{ marginLeft: '10px' }}
                     />
                 </div>
                 <div class="col-lg-3">
@@ -123,12 +140,14 @@ class About extends Component {
                     src={require('./components/images/car-images/IMG_6871.JPG')}
                     class="w-100 shadow-1-strong rounded mb-4"
                     alt="car"
+                    style={{ marginLeft: '10px' }}
                     />
 
                     <img
                     src={require('./components/images/car-images/IMG_6903.JPG')}
                     class="w-100 shadow-1-strong rounded mb-4"
                     alt="car"
+                    style={{ marginLeft: '10px' }}
                     />
                 </div>
             </div>

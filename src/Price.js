@@ -5,15 +5,16 @@ class Price extends Component {
     return (
     <div class="table-responsive">
         <div class="row">
-        <h1 class="card-title text-center">Priser</h1>
+        <h1 class="company-title">Priser</h1>
         <div class="col-md-6 offset-md-3">
             <div class="card">
                 <div class="card-body">
                     <h3 class="card-subtitle text-center">Information och regler</h3>
                     <hr></hr>
-                    <h5 class="card-text text-center">Helgkörning kostar 15% extra per lektion och gäller B, B96, BE, C, C1, D, CE</h5>
-                    <h5 class="card-text text-center">Körkarlens trafikskola kan utbilda trafiklärare till buss, lastbil och lastbil med släp.</h5>
-                    <h5 class="card-text text-center">Köpta lektioner måste utnyttjas inom 6 månader</h5>
+                    <h5 class="card-text ">Helgkörning kostar 15% extra per lektion och gäller B, B96, BE, C, C1, D, CE</h5>
+                    <h5 class="card-text ">Körkarlens trafikskola kan utbilda trafiklärare till buss, lastbil och lastbil med släp.</h5>
+                    <h5 class="card-text ">Köpta lektioner måste utnyttjas inom sex månader</h5>
+                    <h5 class="card-text ">Inskrivning i datorsystemet kostar 500 kr</h5>
                 </div>
                 </div>
             </div>
