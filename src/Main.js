@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { useEffect, useState  } from "react";
 import {
     Route,
     NavLink,
@@ -13,8 +13,42 @@ import Footer from "./components/footer/footer.js";
 import "./components/navbar/navbar.css"
 import Logo from "./components/images/logo.png"
 import StrLogo from "./components/images/strmedlem.jpg"
-class Main extends Component {
-        render() {
+import netlifyIdentity from './components/widgets/identity/netlifyAuth'; // Adjust the path
+
+
+
+const Main = () => {
+    const [user, setUser] = useState(null);
+
+
+    useEffect(() => {
+        // Listen for login events
+        netlifyIdentity.on('login', (user) => {
+          setUser(user);
+          netlifyIdentity.close(); // Close the modal after login
+        });
+    
+        // Listen for logout events
+        netlifyIdentity.on('logout', () => {
+          setUser(null);
+        });
+    
+        // Check if the user is already logged in
+        const currentUser = netlifyIdentity.currentUser();
+        if (currentUser) {
+          setUser(currentUser);
+        }
+      }, []);
+      const login = () => {
+        // Open the Netlify Identity modal for login
+        netlifyIdentity.open();
+      };
+    
+      const logout = () => {
+        // Log the user out
+        netlifyIdentity.logout();
+      };
+        
         return (
         <HashRouter>
             <div>
@@ -31,14 +65,21 @@ class Main extends Component {
                                 <div class="collapse navbar-collapse" id="navbarNav">
                                 <ul class="navbar-nav ms-auto">
                                     <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#"><NavLink to="/">Hem</NavLink></a>
+                                    <a className="nav-link active" aria-current="page" href="/home"><NavLink to="/">Hem</NavLink></a>
                                     </li>
                                     <li class="nav-item">
-                                    <a class="nav-link" href="#"><NavLink to="/price">Priser</NavLink></a>
+                                    <a className="nav-link" href="/price"><NavLink to="/price">Priser</NavLink></a>
                                     </li>
                                     <li class="nav-item">
-                                    <a class="nav-link" href="#"><NavLink to="/about">Om oss</NavLink></a>
+                                    <a className="nav-link" href="/about"><NavLink to="/about">Om oss</NavLink></a>
                                     </li>
+                                    <li className="nav-item">
+                                    {user ? (
+                                    <button className="nav-link" onClick={logout}>Logout</button>
+                                    ) : (
+                                    <button className="nav-link" onClick={login}>Login</button>
+                                    )}
+                                </li>
                                 </ul>
                                 </div>
                             </div>
@@ -61,5 +102,5 @@ class Main extends Component {
             <Footer/>
         </HashRouter>
         );}
-    }
+    
 export default Main;

@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, {} from "react";
 import "./home.css";
 import Tabbed from "./components/Tabbed"
 
@@ -9,8 +9,9 @@ import DemoCarousel from "./components/carousel/carousel";
 
 
 
-class Home extends Component {
-    render() {
+const Home = () =>  {
+    
+    
     return (
       <div>
         
@@ -82,6 +83,6 @@ class Home extends Component {
     </div>
     );
     }
-}
+
 
 export default Home;

@@ -5,8 +5,8 @@ import Banner from "../images/logo.png"
 
 
 
-import styles from 'react-responsive-carousel/lib/styles/carousel.min.css';
-import CarouselStyles from './Carousel.css';
+//import styles from 'react-responsive-carousel/lib/styles/carousel.min.css';
+//import CarouselStyles from './Carousel.css';
 const DemoCarousel = () => {
   return (
     <Carousel
