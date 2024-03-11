@@ -53,7 +53,7 @@ class footer extends Component {
                 <p className="follow-text">
                   Se eventuella erbjudanden och nyheter på vår Facebook-sida:
                   <a
-                    href="https://www.facebook.com/yourfacebookpage"
+                    href="https://www.facebook.com/profile.php?id=100047322463446"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
