@@ -1,16 +1,24 @@
 .footer {
-    background: #ffffff;
-    margin-top: 27px;
-    padding-top: 5px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    text-align: center;
-    box-shadow: 0 -4px 8px 0 rgb(4, 4, 4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    
+  background: #ffffff;
+  margin-top: 27px;
+  padding-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 -4px 8px 0 rgb(4, 4, 4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+.facebook-icon {
+  color: blue; /* Default color */
+  display: flex;
+  align-items: center;
+}
+
+.facebook-icon:hover {
+  color: black; /* Color on hover */
+}
+
 @media only screen and (max-width: 600px) {
-    .footer {
-        
-    }
+  .footer {
   }
+}
