@@ -57,7 +57,7 @@ class Home extends Component {
           </div>
           <Offers
             offerTitle="Erbjudande"
-            offerContent="Nu i mars erbjuder vi 10 % rabbat på ett valfritt körpaket (personbil)"
+            offerContent="Nu i mars erbjuder vi 10 % rabatt på ett valfritt körpaket (personbil)"
           />
           <hr></hr>
 
