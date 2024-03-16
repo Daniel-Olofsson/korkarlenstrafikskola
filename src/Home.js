@@ -1,6 +1,6 @@
 import React from "react";
 import Tabbed from "./components/Tabbed";
-import Offers from "./components/offers/offers";
+import Offers from "./components/offers/Offers";
 import Banner from "../src/components/images/logo.png";
 import TextTruncate from "react-text-truncate";
 

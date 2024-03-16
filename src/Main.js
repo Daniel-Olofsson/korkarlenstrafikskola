@@ -5,7 +5,7 @@ import Home from "./Home";
 import About from "./About";
 import Price from "./Price";
 import Footer from "./components/footer/footer.js";
-import Navbar from "./components/navbar/navbar";
+import Navbar from "./components/navbar/navbar.js";
 
 const Main = () => {
   return (
