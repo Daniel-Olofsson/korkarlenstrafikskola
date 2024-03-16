@@ -47,7 +47,8 @@ li {
 }
 
 .center-h {
-  text-align: center;
+  margin-left: 10px;
+  text-align: start;
   padding-top: 20px;
 }
 @media only screen and (max-width: 375px) {
