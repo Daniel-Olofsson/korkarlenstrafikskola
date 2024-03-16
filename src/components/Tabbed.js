@@ -13,7 +13,7 @@ const DrivingLicenses = () => {
   }
 
   return (
-    <div>
+    <div className="container">
       <ul className="tabs">
         <li
           className={activeTab === "class-a" ? "active" : ""}

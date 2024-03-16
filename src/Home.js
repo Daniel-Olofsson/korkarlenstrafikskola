@@ -79,8 +79,8 @@ const Home = () => {
         </div>
         <div className="divider"></div>
 
-        <div className="container">
-          <h2 className="center-h">Våra utbildningar</h2>
+        <div className="">
+          <h2 className="center-h m-3">Våra utbildningar</h2>
           <Tabbed />
         </div>
       </div>

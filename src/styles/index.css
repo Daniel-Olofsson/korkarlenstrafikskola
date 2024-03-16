@@ -45,7 +45,9 @@ p {
 li {
   margin-left: 10px;
 }
-
+.container {
+  display: flex;
+}
 .center-h {
   margin-left: 10px;
   text-align: start;
