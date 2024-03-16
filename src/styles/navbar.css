@@ -1,0 +1,105 @@
+/* CSS for Navbar */
+.MuiAppBar-root.custom-appbar.navigationbar__container {
+  background-color: #ffffff !important;
+  box-shadow: 0 4px 8px 0 rgb(4, 4, 4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navigationbar__container {
+  width: 100% !important;
+  position: relative;
+  transition: height 0.3s ease-in-out; /* Apply transition to height */
+}
+
+.navigationbar__container__brand {
+  margin-right: 20px;
+}
+
+.navigationbar__container__brand-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.navigationbar__container__brand-logo {
+  width: 150px;
+  height: 80px;
+}
+
+.navigationbar__container__brand-image {
+  width: 60px;
+  height: 40px;
+}
+
+.navigationbar__container__toggler {
+  border: none;
+}
+
+.navigationbar__container__toggler-icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  color: black;
+}
+
+.navigationbar__container__collapse {
+  top: 100%; /* Position below the navbar */
+  left: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 1;
+  display: none; /* Hide by default */
+}
+
+.navigationbar__container__collapse ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navigationbar__container__collapse li {
+  margin-bottom: 10px;
+}
+
+.navigationbar__container__collapse a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: black;
+}
+
+/* Show the collapsible menu when the mobile menu is open */
+.MuiAppBar-root.custom-appbar.navigationbar__container.mobile-open
+  .navigationbar__container__collapse {
+  display: block;
+}
+
+/* Adjust the style for mobile screens */
+@media (max-width: 600px) {
+  .navigationbar__container__collapse {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: static;
+    width: 100%;
+    z-index: 0;
+    box-shadow: none;
+  }
+}
+.mobile-nav {
+  position: absolute;
+  bottom: 0;
+  top: 100%; /* Position below the navbar */
+  left: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 1;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.mobile-nav ul {
+  display: flex;
+  gap: 5x;
+}

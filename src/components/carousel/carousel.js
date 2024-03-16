@@ -1,4 +1,4 @@
-import React from 'react';
+/*import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import Banner from "../images/logo.png"
@@ -32,9 +32,9 @@ const DemoCarousel = () => {
       <div>
         <img src={LogoBanner} alt='slide 4'></img>
         <p className="carousel-legend">STR Medlem</p>
-      </div>*/}
+      </div>
     </Carousel>
   );
 };
 
-export default DemoCarousel;
+export default DemoCarousel;*/

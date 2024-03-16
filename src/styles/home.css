@@ -1,0 +1,168 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:500);
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Set default font family */
+body {
+  font-family: "Mulish", sans-serif;
+}
+
+/* Set default styles for headings */
+h1,
+h5 {
+  margin-left: 10px;
+}
+
+/* Offer heading styles */
+.offer-heading {
+  text-align: center;
+  padding: 15px;
+  font-size: 24px;
+  font-weight: bold;
+  color: red;
+  /* Additional text shadow */
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.2), 0 0 10px rgba(0, 0, 0, 0.4),
+    0 0 15px rgba(0, 0, 0, 0.6), 0 0 20px rgba(0, 0, 0, 0.8),
+    0 0 25px rgba(0, 0, 0, 1);
+}
+
+/* Special offers container */
+.special-offers {
+  border: 5px solid;
+  border-radius: 25px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #f2f2f2;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+/* Offer list */
+.offer-list {
+  list-style-type: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+/* Individual offer item */
+.offer-item {
+  font-size: 16px;
+  background-color: #ff8002;
+  padding: 2px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Offer validity paragraph */
+.offer-validity {
+  margin-top: 20px;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 14px;
+  color: red;
+}
+
+/* Home text */
+.home-text {
+  padding: 0;
+  font-size: 14px;
+}
+
+/* Adjust margin for home text paragraphs */
+.home-text p {
+  margin-bottom: 10px;
+}
+
+/* Image banner */
+.image-banner {
+  width: 100%;
+  border-radius: 25px;
+  max-height: 500px;
+}
+
+/* Image wrapper */
+.image-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+  position: relative;
+}
+
+/* Carousel wrapper */
+.carousel-wrapper {
+  margin-top: 20px;
+  border-radius: 25px;
+}
+
+/* Company title */
+.company-title {
+  padding-top: 5%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: 600;
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+  /* Adjust image banner height for phones */
+  .image-banner {
+    height: 300px;
+  }
+  /* Further reduce font size for smaller screens */
+  .company-title {
+    padding-top: 10%;
+    font-size: 26px;
+    padding-left: 15px;
+  }
+}
+
+/* Banner */
+.banner {
+  background-color: #3498db;
+  color: #fff;
+  padding: 50px 0;
+  border-radius: 25px;
+  position: relative;
+  z-index: 0;
+}
+
+/* Banner text */
+.banner h1 {
+  font-size: 36px;
+  margin-top: 20px;
+}
+
+.banner p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.email-link {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-decoration: none; /* Remove underline from the email link */
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .email-link {
+    /*width: 50%; /* Adjust the width for small screens */
+  }
+}
+.email-link:hover {
+  text-decoration: underline; /* Underline the email link on hover */
+}

@@ -1,11 +1,11 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
-import Main from "./Main";
-import "./index.css";
+import { createRoot } from "react-dom/client";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-    <React.StrictMode>
-    <Main/>
-    </React.StrictMode>
+import Main from "./Main";
+import "./styles/index.js";
+
+createRoot(document.getElementById("root")).render(
+  <React.StrictMode>
+    <Main />
+  </React.StrictMode>
 );
