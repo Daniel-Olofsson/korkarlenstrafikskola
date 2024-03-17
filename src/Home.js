@@ -3,6 +3,7 @@ import Tabbed from "./components/Tabbed";
 import Offers from "./components/offers/offers";
 import Banner from "../src/components/images/logo.png";
 import TextTruncate from "react-text-truncate";
+import Slider from "./components/slider/slider";
 
 const Home = () => {
   return (
@@ -15,12 +16,13 @@ const Home = () => {
           className="carousel-wrapper"
         >
           {/*<DemoCarousel images={Slides}/>*/}
+          {/*<Slider images={[Banner, Banner, Banner]} />*/}
         </div>
       </div>
-
+      <div className="divider"></div>
       <div className="home-content">
         <div className="home-text">
-          <h1 className="center-h">Information</h1>
+          <h1 className="home__title">Information</h1>
           <p className="">
             Vi vill informera att i nuläget har vi gott om körlektioner med
             personbil mellan kl 8.30- 16.50.
@@ -48,16 +50,19 @@ const Home = () => {
           </p>
 
           <p>Maila eller ring oss för frågor om exempelvis pris.</p>
-          <p className="email-link">Mvh personalen</p>
+          <p className="NoPaddingNoMargin">Mvh personalen</p>
+          <div className="divider"></div>
         </div>
+
+        <div className="divider"></div>
         <Offers
           offerTitle="Erbjudande"
-          offerContent="Nu i mars erbjuder vi 10 % rabatt på ett valfritt körpaket (personbil)"
+          offerContent="Nu i mars erbjuder vi 10 % rabatt på ett valfritt körpaket ( personbil )."
         />
         <div className="divider"></div>
 
-        <div className="about">
-          <h3 className="center-h mb-3">
+        <div className="about__home">
+          <h3 className="about__home__title">
             Vi erbjuder på Körkarlens trafikskola
           </h3>
           <ul className="about-ul">
@@ -79,8 +84,8 @@ const Home = () => {
         </div>
         <div className="divider"></div>
 
-        <div className="">
-          <h2 className="center-h m-3">Våra utbildningar</h2>
+        <div className="tabbed__section">
+          <h2 className="tabbed__section__title">Våra utbildningar</h2>
           <Tabbed />
         </div>
       </div>
